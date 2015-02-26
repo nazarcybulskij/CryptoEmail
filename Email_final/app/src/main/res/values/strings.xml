@@ -541,8 +541,8 @@ as <xliff:g id="filename">%s</xliff:g>.</string>
         [CHAR LIMIT=none] -->
     <string name="account_setup_basics_headline">Email account</string>
     <!-- On "Set up email" screen, enthusiastic welcome message. -->
-    <string name="accounts_welcome">Nazarko Zipolino # 2
-        </string>
+     <string name="accounts_welcome">You can set up email for most accounts in just a few steps.
+    </string>
     <!-- On "Set up email" screen, enthusiastic welcome message (in EAS mode). -->
     <string name="accounts_welcome_exchange">You can set up an Exchange account in just a few
         steps.</string>

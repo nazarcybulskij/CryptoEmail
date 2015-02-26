@@ -14,16 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store.imap;
+package com.indeema.email.mail.store.imap;
 
-import com.android.email.FixedLengthInputStream;
-import com.android.email.mail.store.imap.ImapElement;
-import com.android.email.mail.store.imap.ImapList;
-import com.android.email.mail.store.imap.ImapResponse;
-import com.android.email.mail.store.imap.ImapSimpleString;
-import com.android.email.mail.store.imap.ImapString;
-import com.android.email.mail.transport.DiscourseLogger;
-import com.android.emailcommon.utility.Utility;
+import com.indeema.email.FixedLengthInputStream;
+import com.indeema.email.mail.store.imap.ImapElement;
+import com.indeema.email.mail.store.imap.ImapList;
+import com.indeema.email.mail.store.imap.ImapResponse;
+import com.indeema.email.mail.store.imap.ImapResponseParser;
+import com.indeema.email.mail.store.imap.ImapSimpleString;
+import com.indeema.email.mail.store.imap.ImapString;
+import com.indeema.email.mail.transport.DiscourseLogger;
+import com.indeema.emailcommon.utility.Utility;
 
 import java.io.ByteArrayInputStream;
 
@@ -41,7 +42,7 @@ public final class ImapTestUtils {
     public static final ImapList LIST_1 = buildList(STRING_1);
     public static final ImapList LIST_2 = buildList(STRING_1, STRING_2, LIST_1);
 
-    /** @see #assertElement(String, ImapElement, ImapElement) */
+    /** @see #assertElement(String, com.indeema.email.mail.store.imap.ImapElement, com.indeema.email.mail.store.imap.ImapElement) */
     public static final void assertElement(ImapElement expected, ImapElement actual) {
         assertElement("(no message)", expected, actual);
     }
@@ -71,7 +72,7 @@ public final class ImapTestUtils {
         return list;
     }
 
-    /** Convenience method to build an {@link ImapResponse} */
+    /** Convenience method to build an {@link com.indeema.email.mail.store.imap.ImapResponse} */
     public static final ImapResponse buildResponse(String tag, boolean isContinuationRequest,
             ImapElement... elements) {
         ImapResponse res = new ImapResponse(tag, isContinuationRequest);

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.emailcommon.utility;
+package com.indeema.emailcommon.utility;
 
-import com.android.emailcommon.utility.EmailAsyncTask.Tracker;
+import com.indeema.emailcommon.utility.EmailAsyncTask;
 
 import android.test.AndroidTestCase;
 import android.test.MoreAsserts;

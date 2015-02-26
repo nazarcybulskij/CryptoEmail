@@ -15,14 +15,12 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.email"
+    package="com.indeema.email"
     android:versionCode="410000"
     android:versionName="4.1" > <!-- This needs to be present when we are doing unbundled releases. -->
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="16" />
-
-    <original-package android:name="com.android.email" />
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -45,34 +43,38 @@
 
     <!-- Grant permission to other apps to view attachments -->
     <permission
-        android:name="com.android.email.permission.READ_ATTACHMENT"
+        android:name="com.indeema.email.permission.READ_ATTACHMENT"
         android:description="@string/permission_read_attachment_desc"
         android:label="@string/permission_read_attachment_label"
         android:permissionGroup="android.permission-group.MESSAGES"
         android:protectionLevel="dangerous" />
 
-    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT" />
+    <uses-permission android:name="com.indeema.email.permission.READ_ATTACHMENT" />
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
 
     <!-- Grant permission to system apps to access provider (see provider below) -->
     <permission
-        android:name="com.android.email.permission.ACCESS_PROVIDER"
+        android:name="com.indeema.email.permission.ACCESS_PROVIDER"
         android:description="@string/permission_access_provider_desc"
         android:label="@string/permission_access_provider_label"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER" />
+    <uses-permission android:name="com.indeema.email.permission.ACCESS_PROVIDER" />
+
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
     <!--
-     Note:  Actually, android:hardwareAccelerated could be "true", but in order to switch it
+ Note:  Actually, android:hardwareAccelerated could be "true", but in order to switch it
          on/off in the debug screen, we have to set it "false" here and enable it at runtime.
     -->
     <application
-        android:name="com.android.email.Email"
+        android:name="com.indeema.email.Email"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher_email"
         android:label="@string/app_name"
         android:theme="@style/EmailTheme" >
-        <activity android:name="com.android.email.activity.Welcome" >
+        <activity android:name="com.indeema.email.activity.Welcome" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -97,45 +99,45 @@
         <!-- Must be exported in order for the AccountManager to launch it -->
         <!-- Also available for continuous test systems to force account creation -->
         <activity
-            android:name="com.android.email.activity.setup.AccountSetupBasics"
+            android:name="com.indeema.email.activity.setup.AccountSetupBasics"
             android:exported="true"
             android:label="@string/account_setup_basics_title" >
             <intent-filter>
-                <action android:name="com.android.email.CREATE_ACCOUNT" />
+                <action android:name="com.indeema.email.CREATE_ACCOUNT" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.android.email.activity.setup.AccountSetupAccountType"
+            android:name="com.indeema.email.activity.setup.AccountSetupAccountType"
             android:label="@string/account_setup_account_type_title" >
         </activity>
         <activity
-            android:name="com.android.email.activity.setup.AccountSetupIncoming"
+            android:name="com.indeema.email.activity.setup.AccountSetupIncoming"
             android:label="@string/account_setup_incoming_title" >
         </activity>
         <activity
-            android:name="com.android.email.activity.setup.AccountSetupOutgoing"
+            android:name="com.indeema.email.activity.setup.AccountSetupOutgoing"
             android:label="@string/account_setup_outgoing_title" >
         </activity>
         <activity
-            android:name="com.android.email.activity.setup.AccountSetupExchange"
+            android:name="com.indeema.email.activity.setup.AccountSetupExchange"
             android:label="@string/account_setup_exchange_title" >
         </activity>
         <activity
-            android:name="com.android.email.activity.setup.AccountSetupOptions"
+            android:name="com.indeema.email.activity.setup.AccountSetupOptions"
             android:label="@string/account_setup_options_title" >
         </activity>
         <activity
-            android:name="com.android.email.activity.setup.AccountSetupNames"
+            android:name="com.indeema.email.activity.setup.AccountSetupNames"
             android:label="@string/account_setup_names_title" >
         </activity>
         <activity
-            android:name="com.android.email.activity.setup.AccountSettings"
+            android:name="com.indeema.email.activity.setup.AccountSettings"
             android:label="@string/settings_activity_title"
             android:theme="@android:style/Theme.Holo.Light" >
             <intent-filter>
-                <action android:name="com.android.email.activity.setup.ACCOUNT_MANAGER_ENTRY" />
+                <action android:name="com.indeema.email.activity.setup.ACCOUNT_MANAGER_ENTRY" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -156,13 +158,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.android.email.activity.setup.AccountSecurity"
+            android:name="com.indeema.email.activity.setup.AccountSecurity"
             android.label="@string/account_security_title" >
         </activity>
 
         <!-- Don't need to set the title; it will be set programatically -->
         <activity
-            android:name="com.android.email.activity.ShortcutPicker"
+            android:name="com.indeema.email.activity.ShortcutPicker"
             android:enabled="false"
             android:theme="@android:style/Theme.Holo.Light.DialogWhenLarge" >
             <intent-filter android:label="@string/account_shortcut_picker_name" >
@@ -172,10 +174,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.android.email.activity.EmailActivity"
+            android:name="com.indeema.email.activity.EmailActivity"
             android:uiOptions="splitActionBarWhenNarrow" >
         </activity>
-        <activity android:name="com.android.email.activity.MessageFileView" >
+        <activity android:name="com.indeema.email.activity.MessageFileView" >
             <intent-filter android:label="@string/app_name" >
                 <action android:name="android.intent.action.VIEW" />
 
@@ -186,7 +188,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.android.email.activity.MessageCompose"
+            android:name="com.indeema.email.activity.MessageCompose"
             android:enabled="false"
             android:label="@string/compose_title"
             android:theme="@android:style/Theme.Holo.Light" >
@@ -214,26 +216,26 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.email.intent.action.REPLY" />
+                <action android:name="com.indeema.email.intent.action.REPLY" />
             </intent-filter>
         </activity>
 
         <!-- Only used to support pre-HC shortcuts -->
-        <activity android:name="com.android.email.activity.MessageList" >
+        <activity android:name="com.indeema.email.activity.MessageList" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.android.email.activity.setup.MailboxSettings"
+            android:name="com.indeema.email.activity.setup.MailboxSettings"
             android:label="@string/mailbox_settings_activity_title" >
         </activity>
 
         <receiver
-            android:name="com.android.email.service.AttachmentDownloadService$Watchdog"
+            android:name="com.indeema.email.service.AttachmentDownloadService$Watchdog"
             android:enabled="true" />
         <receiver
-            android:name="com.android.email.service.EmailBroadcastReceiver"
+            android:name="com.indeema.email.service.EmailBroadcastReceiver"
             android:enabled="true" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -251,11 +253,11 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="com.android.email.service.EmailBroadcastProcessorService" />
+        <service android:name="com.indeema.email.service.EmailBroadcastProcessorService" />
 
         <!-- Support for DeviceAdmin / DevicePolicyManager.  See SecurityPolicy class for impl. -->
         <receiver
-            android:name="com.android.email.SecurityPolicy$PolicyAdmin"
+            android:name="com.indeema.email.SecurityPolicy$PolicyAdmin"
             android:description="@string/device_admin_description"
             android:label="@string/device_admin_label"
             android:permission="android.permission.BIND_DEVICE_ADMIN" >
@@ -269,21 +271,21 @@
         </receiver>
 
         <service
-            android:name="com.android.email.service.MailService"
+            android:name="com.indeema.email.service.MailService"
             android:enabled="false" >
         </service>
         <service
-            android:name="com.android.email.Controller$ControllerService"
+            android:name="com.indeema.email.Controller$ControllerService"
             android:enabled="true" >
         </service>
         <service
-            android:name="com.android.email.service.AttachmentDownloadService"
+            android:name="com.indeema.email.service.AttachmentDownloadService"
             android:enabled="false" >
         </service>
 
         <!-- Required stanza to register the PopImapAuthenticatorService with AccountManager -->
         <service
-            android:name="com.android.email.service.PopImapAuthenticatorService"
+            android:name="com.indeema.email.service.PopImapAuthenticatorService"
             android:enabled="true"
             android:exported="true" >
             <intent-filter>
@@ -297,7 +299,7 @@
 
         <!-- Required stanza to register the PopImapSyncAdapterService with SyncManager -->
         <service
-            android:name="com.android.email.service.PopImapSyncAdapterService"
+            android:name="com.indeema.email.service.PopImapSyncAdapterService"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.content.SyncAdapter" />
@@ -310,25 +312,25 @@
 
         <!-- Require provider permission to use our Policy and Account services -->
         <service
-            android:name="com.android.email.service.PolicyService"
+            android:name="com.indeema.email.service.PolicyService"
             android:enabled="true"
-            android:permission="com.android.email.permission.ACCESS_PROVIDER" >
+            android:permission="com.indeema.email.permission.ACCESS_PROVIDER" >
             <intent-filter>
-                <action android:name="com.android.email.POLICY_INTENT" />
+                <action android:name="com.indeema.email.POLICY_INTENT" />
             </intent-filter>
         </service>
         <service
-            android:name="com.android.email.service.AccountService"
+            android:name="com.indeema.email.service.AccountService"
             android:enabled="true"
-            android:permission="com.android.email.permission.ACCESS_PROVIDER" >
+            android:permission="com.indeema.email.permission.ACCESS_PROVIDER" >
             <intent-filter>
-                <action android:name="com.android.email.ACCOUNT_INTENT" />
+                <action android:name="com.indeema.email.ACCOUNT_INTENT" />
             </intent-filter>
         </service>
 
         <!-- Required stanza to register the EasAuthenticatorService with AccountManager -->
         <service
-            android:name="com.android.email.service.EasAuthenticatorService"
+            android:name="com.indeema.email.service.EasAuthenticatorService"
             android:enabled="true"
             android:exported="true" >
             <intent-filter>
@@ -341,7 +343,7 @@
         </service>
         <!-- Required stanza to register the EasTestAuthenticatorService with AccountManager -->
         <service
-            android:name="com.android.email.service.EasTestAuthenticatorService"
+            android:name="com.indeema.email.service.EasTestAuthenticatorService"
             android:enabled="false"
             android:exported="true" >
             <intent-filter>
@@ -357,7 +359,7 @@
             and OneTimeInitializer enables it if the vendor policy tells so.
         -->
         <service
-            android:name="com.android.email.service.EasAuthenticatorServiceAlternate"
+            android:name="com.indeema.email.service.EasAuthenticatorServiceAlternate"
             android:enabled="false"
             android:exported="true" >
             <intent-filter>
@@ -370,26 +372,26 @@
         </service>
 
         <provider
-            android:name="com.android.email.provider.AttachmentProvider"
-            android:authorities="com.android.email.attachmentprovider"
+            android:name="com.indeema.email.provider.AttachmentProvider"
+            android:authorities="com.indeema.email.attachmentprovider"
             android:grantUriPermissions="true"
             android:multiprocess="true"
-            android:readPermission="com.android.email.permission.READ_ATTACHMENT" />
+            android:readPermission="com.indeema.email.permission.READ_ATTACHMENT" />
 
         <!--
              This provider MUST be protected by strict permissions, as granting access to
              it exposes user passwords and other confidential information.
         -->
         <provider
-            android:name="com.android.email.provider.EmailProvider"
-            android:authorities="com.android.email.provider;com.android.email.notifier"
+            android:name="com.indeema.email.provider.EmailProvider"
+            android:authorities="com.indeema.email.provider;com.indeema.email.notifier"
             android:label="@string/app_name"
             android:multiprocess="true"
-            android:permission="com.android.email.permission.ACCESS_PROVIDER" />
+            android:permission="com.indeema.email.permission.ACCESS_PROVIDER" />
 
         <!-- Email AppWidget definitions -->
         <activity
-            android:name="com.android.email.widget.WidgetConfiguration"
+            android:name="com.indeema.email.widget.WidgetConfiguration"
             android:enabled="true"
             android:theme="@android:style/Theme.Holo.Light.DialogWhenLarge" >
             <intent-filter android:label="@string/account_shortcut_picker_name" >
@@ -400,16 +402,16 @@
         </activity>
 
         <service
-            android:name="com.android.email.provider.WidgetProvider$WidgetService"
+            android:name="com.indeema.email.provider.WidgetProvider$WidgetService"
             android:exported="false"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
-        <receiver android:name="com.android.email.provider.WidgetProvider" >
+        <receiver android:name="com.indeema.email.provider.WidgetProvider" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.email.MESSAGE_LIST_DATASET_CHANGED" />
+                <action android:name="com.indeema.email.MESSAGE_LIST_DATASET_CHANGED" />
             </intent-filter>
 
             <meta-data

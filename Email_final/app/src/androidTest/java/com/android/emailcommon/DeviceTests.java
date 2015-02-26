@@ -15,12 +15,15 @@
  * limitations under the License.
  */
 
-package com.android.emailcommon;
+package com.indeema.emailcommon;
 
 import android.content.Context;
 import android.telephony.TelephonyManager;
 import android.test.AndroidTestCase;
 import android.util.Log;
+
+import com.indeema.emailcommon.Device;
+import com.indeema.emailcommon.Logging;
 
 public class DeviceTests extends AndroidTestCase {
 

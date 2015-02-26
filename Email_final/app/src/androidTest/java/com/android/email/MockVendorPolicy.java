@@ -14,10 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.indeema.email;
 
 import android.content.Context;
 import android.os.Bundle;
+
+import com.indeema.email.VendorPolicyLoader;
 
 public class MockVendorPolicy {
     public static String passedPolicy;

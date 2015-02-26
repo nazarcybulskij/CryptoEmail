@@ -14,12 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.indeema.email.activity;
 
-import com.android.email.Clock;
-import com.android.email.Controller;
-import com.android.email.MockClock;
-import com.android.email.RefreshManager;
+import com.indeema.email.Clock;
+import com.indeema.email.Controller;
+import com.indeema.email.MockClock;
+import com.indeema.email.RefreshManager;
+import com.indeema.email.activity.UIControllerTwoPane;
 
 import android.content.Context;
 import android.os.Handler;
@@ -29,7 +30,7 @@ import android.test.suitebuilder.annotation.SmallTest;
 import junit.framework.Assert;
 
 /**
- * Tests for {@link UIControllerTwoPane.RefreshTask}.
+ * Tests for {@link com.indeema.email.activity.UIControllerTwoPane.RefreshTask}.
  *
  * TOOD Add more tests.
  * Right now, it only has tests for the "shouldXxx" methods, because it's hard to notice when

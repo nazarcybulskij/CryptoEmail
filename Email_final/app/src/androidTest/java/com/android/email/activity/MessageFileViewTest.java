@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.indeema.email.activity;
 
-import com.android.email.DBTestHelper;
-import com.android.email.TestUtils;
-import com.android.email.provider.ProviderTestUtils;
-import com.android.emailcommon.provider.EmailContent.Message;
+import com.indeema.email.DBTestHelper;
+import com.indeema.email.TestUtils;
+import com.indeema.email.provider.ProviderTestUtils;
+import com.indeema.email.activity.MessageFileView;
+import com.indeema.email.activity.MessageFileViewFragment;
+import com.indeema.emailcommon.provider.EmailContent.Message;
 
 import android.content.Context;
 import android.content.Intent;
@@ -27,7 +29,7 @@ import android.net.Uri;
 import android.test.ActivityInstrumentationTestCase2;
 
 /**
- * Test case for {@link MessageFileView}.
+ * Test case for {@link com.indeema.email.activity.MessageFileView}.
  *
  * TODO Add more tests.  Any good way to test fragment??
  */

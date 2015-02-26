@@ -14,12 +14,16 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store.imap;
+package com.indeema.email.mail.store.imap;
 
-import static com.android.email.mail.store.imap.ImapTestUtils.createFixedLengthInputStream;
+import static com.indeema.email.mail.store.imap.ImapTestUtils.createFixedLengthInputStream;
 
-import com.android.emailcommon.TempDirectory;
-import com.android.emailcommon.utility.Utility;
+import com.indeema.email.mail.store.imap.ImapMemoryLiteral;
+import com.indeema.email.mail.store.imap.ImapSimpleString;
+import com.indeema.email.mail.store.imap.ImapString;
+import com.indeema.email.mail.store.imap.ImapTempFileLiteral;
+import com.indeema.emailcommon.TempDirectory;
+import com.indeema.emailcommon.utility.Utility;
 
 import org.apache.commons.io.IOUtils;
 
@@ -32,7 +36,7 @@ import java.util.Locale;
 
 
 /**
- * Test for {@link ImapString} and its subclasses.
+ * Test for {@link com.indeema.email.mail.store.imap.ImapString} and its subclasses.
  */
 @SmallTest
 public class ImapStringTest extends AndroidTestCase {

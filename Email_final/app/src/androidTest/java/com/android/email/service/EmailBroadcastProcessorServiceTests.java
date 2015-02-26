@@ -14,14 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.email.service;
+package com.indeema.email.service;
 
-import com.android.email.AccountTestCase;
-import com.android.email.provider.ProviderTestUtils;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.AccountColumns;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.utility.Utility;
+import com.indeema.email.AccountTestCase;
+import com.indeema.email.provider.ProviderTestUtils;
+import com.indeema.email.service.EmailBroadcastProcessorService;
+import com.indeema.emailcommon.provider.Account;
+import com.indeema.emailcommon.provider.EmailContent.AccountColumns;
+import com.indeema.emailcommon.provider.HostAuth;
+import com.indeema.emailcommon.utility.Utility;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -33,7 +34,7 @@ import java.util.NoSuchElementException;
  * Tests of the Email provider.
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.service.EmailBroadcastProcessorServiceTests email
+ *   runtest -c com.indeema.email.service.EmailBroadcastProcessorServiceTests email
  */
 public class EmailBroadcastProcessorServiceTests extends AccountTestCase {
 

@@ -14,10 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.emailcommon.service;
+package com.indeema.emailcommon.service;
 
 import android.os.Parcel;
 import android.test.AndroidTestCase;
+
+import com.indeema.emailcommon.service.SearchParams;
 
 public class SearchParamsTests extends AndroidTestCase {
     public void testParcel() {

@@ -95,31 +95,12 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
-    <style name="attachment_container">
-        <item name="android:background">@drawable/attachment_bg_holo</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">48dip</item>
-    </style>
 
-    <style name="attachment_name">
-        <item name="android:layout_marginLeft">16dip</item>
-        <item name="android:layout_marginRight">32dip</item>
-        <item name="android:maxLines">1</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
-        <item name="android:ellipsize">end</item>
-    </style>
+
+
 
     <style name="attachment_size" parent="@style/attachment_name">
         <item name="android:textColor">#555555</item>
-    </style>
-
-    <style name="attachment_thumbnail">
-        <item name="android:layout_marginLeft">8dip</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
     </style>
 
     <style name="unreadCount">

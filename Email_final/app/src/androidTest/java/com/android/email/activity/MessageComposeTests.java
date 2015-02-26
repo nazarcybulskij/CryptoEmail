@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.indeema.email.activity;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -24,21 +24,20 @@ import android.test.ActivityInstrumentationTestCase2;
 import android.test.UiThreadTest;
 import android.test.suitebuilder.annotation.LargeTest;
 import android.test.suitebuilder.annotation.SmallTest;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.MultiAutoCompleteTextView;
 
-import com.android.email.Email;
-import com.android.email.EmailAddressValidator;
-import com.android.email.R;
-import com.android.email.TestUtils;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.mail.Address;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.Attachment;
-import com.android.emailcommon.provider.EmailContent.Message;
+import com.indeema.email.Email;
+import com.indeema.email.EmailAddressValidator;
+import com.indeema.email.R;
+import com.indeema.email.TestUtils;
+import com.indeema.email.activity.MessageCompose;
+import com.indeema.emailcommon.mail.Address;
+import com.indeema.emailcommon.mail.MessagingException;
+import com.indeema.emailcommon.provider.Account;
+import com.indeema.emailcommon.provider.EmailContent.Attachment;
+import com.indeema.emailcommon.provider.EmailContent.Message;
 import com.google.android.collect.Lists;
 
 import java.util.ArrayList;
@@ -50,7 +49,7 @@ import java.util.ArrayList;
  * It might be possible to convert these to ActivityUnitTest, which would be faster.
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.activity.MessageComposeTests email
+ *   runtest -c com.indeema.email.activity.MessageComposeTests email
  */
 @LargeTest
 public class MessageComposeTests
@@ -117,10 +116,10 @@ public class MessageComposeTests
      * be done consciously to think about existing shortcuts and clients.
      */
 
-    private static final String ACTION_REPLY = "com.android.email.intent.action.REPLY";
-    private static final String ACTION_REPLY_ALL = "com.android.email.intent.action.REPLY_ALL";
-    private static final String ACTION_FORWARD = "com.android.email.intent.action.FORWARD";
-    private static final String ACTION_EDIT_DRAFT = "com.android.email.intent.action.EDIT_DRAFT";
+    private static final String ACTION_REPLY = "com.indeema.email.intent.action.REPLY";
+    private static final String ACTION_REPLY_ALL = "com.indeema.email.intent.action.REPLY_ALL";
+    private static final String ACTION_FORWARD = "com.indeema.email.intent.action.FORWARD";
+    private static final String ACTION_EDIT_DRAFT = "com.indeema.email.intent.action.EDIT_DRAFT";
 
     public MessageComposeTests() {
         super(MessageCompose.class);

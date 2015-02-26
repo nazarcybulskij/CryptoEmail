@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store.imap;
-
-import com.android.email.mail.store.imap.ImapElement;
+package com.indeema.email.mail.store.imap;
 
 import android.test.suitebuilder.annotation.SmallTest;
+
+import com.indeema.email.mail.store.imap.ImapElement;
 
 import junit.framework.TestCase;
 
 @SmallTest
 public class ImapElementTest extends TestCase {
 
-    /** Test for {@link ImapElement#NONE} */
+    /** Test for {@link com.indeema.email.mail.store.imap.ImapElement#NONE} */
     public void testNone() {
         assertFalse(ImapElement.NONE.isList());
         assertFalse(ImapElement.NONE.isString());

@@ -1,12 +1,10 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 21
     buildToolsVersion "19.1.0"
 
-    defaultConfig {
-        applicationId "com.android.ex.chips"
-    }
+
 
     buildTypes {
         release {

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.indeema.email.activity;
 
-import com.android.emailcommon.utility.IntentUtilities;
+import com.indeema.emailcommon.utility.IntentUtilities;
 
 import android.content.Intent;
 import android.net.Uri;

@@ -14,9 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.indeema.email;
 
 import android.test.suitebuilder.annotation.SmallTest;
+
+import com.indeema.email.GroupMessagingListener;
+import com.indeema.email.MessagingListener;
 
 import junit.framework.TestCase;
 

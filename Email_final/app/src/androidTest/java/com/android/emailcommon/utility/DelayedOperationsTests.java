@@ -14,9 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.emailcommon.utility;
+package com.indeema.emailcommon.utility;
 
 import android.test.AndroidTestCase;
+
+import com.indeema.emailcommon.utility.DelayedOperations;
 
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicInteger;

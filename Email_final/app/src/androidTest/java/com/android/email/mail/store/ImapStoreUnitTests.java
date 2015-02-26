@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store;
+package com.indeema.email.mail.store;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -26,36 +26,39 @@ import android.test.InstrumentationTestCase;
 import android.test.MoreAsserts;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.email.DBTestHelper;
-import com.android.email.MockSharedPreferences;
-import com.android.email.MockVendorPolicy;
-import com.android.email.VendorPolicyLoader;
-import com.android.email.mail.Transport;
-import com.android.email.mail.store.ImapStore.ImapMessage;
-import com.android.email.mail.store.imap.ImapResponse;
-import com.android.email.mail.store.imap.ImapTestUtils;
-import com.android.email.mail.transport.MockTransport;
-import com.android.emailcommon.TempDirectory;
-import com.android.emailcommon.internet.MimeBodyPart;
-import com.android.emailcommon.internet.MimeMultipart;
-import com.android.emailcommon.internet.MimeUtility;
-import com.android.emailcommon.internet.TextBody;
-import com.android.emailcommon.mail.Address;
-import com.android.emailcommon.mail.AuthenticationFailedException;
-import com.android.emailcommon.mail.Body;
-import com.android.emailcommon.mail.FetchProfile;
-import com.android.emailcommon.mail.Flag;
-import com.android.emailcommon.mail.Folder;
-import com.android.emailcommon.mail.Folder.FolderType;
-import com.android.emailcommon.mail.Folder.OpenMode;
-import com.android.emailcommon.mail.Message;
-import com.android.emailcommon.mail.Message.RecipientType;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.mail.Part;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.Utility;
+import com.indeema.email.DBTestHelper;
+import com.indeema.email.MockSharedPreferences;
+import com.indeema.email.MockVendorPolicy;
+import com.indeema.email.VendorPolicyLoader;
+import com.indeema.email.mail.Transport;
+import com.indeema.email.mail.store.ImapConnection;
+import com.indeema.email.mail.store.ImapFolder;
+import com.indeema.email.mail.store.ImapStore;
+import com.indeema.email.mail.store.ImapStore.ImapMessage;
+import com.indeema.email.mail.store.imap.ImapResponse;
+import com.indeema.email.mail.store.imap.ImapTestUtils;
+import com.indeema.email.mail.transport.MockTransport;
+import com.indeema.emailcommon.TempDirectory;
+import com.indeema.emailcommon.internet.MimeBodyPart;
+import com.indeema.emailcommon.internet.MimeMultipart;
+import com.indeema.emailcommon.internet.MimeUtility;
+import com.indeema.emailcommon.internet.TextBody;
+import com.indeema.emailcommon.mail.Address;
+import com.indeema.emailcommon.mail.AuthenticationFailedException;
+import com.indeema.emailcommon.mail.Body;
+import com.indeema.emailcommon.mail.FetchProfile;
+import com.indeema.emailcommon.mail.Flag;
+import com.indeema.emailcommon.mail.Folder;
+import com.indeema.emailcommon.mail.Folder.FolderType;
+import com.indeema.emailcommon.mail.Folder.OpenMode;
+import com.indeema.emailcommon.mail.Message;
+import com.indeema.emailcommon.mail.Message.RecipientType;
+import com.indeema.emailcommon.mail.MessagingException;
+import com.indeema.emailcommon.mail.Part;
+import com.indeema.emailcommon.provider.Account;
+import com.indeema.emailcommon.provider.HostAuth;
+import com.indeema.emailcommon.provider.Mailbox;
+import com.indeema.emailcommon.utility.Utility;
 
 import org.apache.commons.io.IOUtils;
 
@@ -68,7 +71,7 @@ import java.util.regex.Pattern;
  * complete - no server(s) required.
  *
  * To run these tests alone, use:
- *   $ runtest -c com.android.email.mail.store.ImapStoreUnitTests email
+ *   $ runtest -c com.indeema.email.mail.store.ImapStoreUnitTests email
  *
  * TODO Check if callback is really called
  * TODO test for BAD response in various places?

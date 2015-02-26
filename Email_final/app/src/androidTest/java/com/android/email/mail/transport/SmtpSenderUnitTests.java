@@ -14,22 +14,23 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.transport;
+package com.indeema.email.mail.transport;
 
 import android.content.Context;
 import android.test.AndroidTestCase;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.email.DBTestHelper;
-import com.android.email.mail.Transport;
-import com.android.email.provider.EmailProvider;
-import com.android.emailcommon.mail.Address;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.Attachment;
-import com.android.emailcommon.provider.EmailContent.Body;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.HostAuth;
+import com.indeema.email.DBTestHelper;
+import com.indeema.email.mail.Transport;
+import com.indeema.email.mail.transport.SmtpSender;
+import com.indeema.email.provider.EmailProvider;
+import com.indeema.emailcommon.mail.Address;
+import com.indeema.emailcommon.mail.MessagingException;
+import com.indeema.emailcommon.provider.Account;
+import com.indeema.emailcommon.provider.EmailContent.Attachment;
+import com.indeema.emailcommon.provider.EmailContent.Body;
+import com.indeema.emailcommon.provider.EmailContent.Message;
+import com.indeema.emailcommon.provider.HostAuth;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -40,7 +41,7 @@ import java.net.UnknownHostException;
  * complete - no server(s) required.
  *
  * These tests can be run with the following command:
- *   runtest -c com.android.email.mail.transport.SmtpSenderUnitTests email
+ *   runtest -c com.indeema.email.mail.transport.SmtpSenderUnitTests email
  */
 @SmallTest
 public class SmtpSenderUnitTests extends AndroidTestCase {
@@ -195,7 +196,7 @@ public class SmtpSenderUnitTests extends AndroidTestCase {
         attachment.mMimeType = "image/jpg";
         attachment.mSize = 0;
         attachment.mContentId = null;
-        attachment.mContentUri = "content://com.android.email/1/1";
+        attachment.mContentUri = "content://com.indeema.email/1/1";
         attachment.mMessageKey = messageId;
         attachment.mLocation = null;
         attachment.mEncoding = null;

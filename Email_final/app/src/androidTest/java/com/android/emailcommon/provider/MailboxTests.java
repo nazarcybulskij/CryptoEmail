@@ -14,15 +14,18 @@
  * limitations under the License.
  */
 
-package com.android.emailcommon.provider;
+package com.indeema.emailcommon.provider;
 
-import com.android.email.provider.ContentCache;
-import com.android.email.provider.EmailProvider;
-import com.android.email.provider.ProviderTestUtils;
-import com.android.emailcommon.provider.EmailContent.MailboxColumns;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.EmailContent.MessageColumns;
-import com.android.emailcommon.utility.Utility;
+import com.indeema.email.provider.ContentCache;
+import com.indeema.email.provider.EmailProvider;
+import com.indeema.email.provider.ProviderTestUtils;
+import com.indeema.emailcommon.provider.Account;
+import com.indeema.emailcommon.provider.EmailContent;
+import com.indeema.emailcommon.provider.EmailContent.MailboxColumns;
+import com.indeema.emailcommon.provider.EmailContent.Message;
+import com.indeema.emailcommon.provider.EmailContent.MessageColumns;
+import com.indeema.emailcommon.provider.Mailbox;
+import com.indeema.emailcommon.utility.Utility;
 
 import android.content.ContentUris;
 import android.content.ContentValues;

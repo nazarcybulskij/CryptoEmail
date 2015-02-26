@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email.service;
+package com.indeema.email.service;
 
 import android.accounts.AccountManager;
 import android.content.ComponentName;
@@ -24,15 +24,17 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import com.android.email.AccountTestCase;
-import com.android.email.Controller;
-import com.android.email.provider.AccountReconciler;
-import com.android.email.provider.EmailProvider;
-import com.android.email.provider.ProviderTestUtils;
-import com.android.email.service.MailService.AccountSyncReport;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.HostAuth;
+import com.indeema.email.AccountTestCase;
+import com.indeema.email.Controller;
+import com.indeema.email.provider.AccountReconciler;
+import com.indeema.email.provider.EmailProvider;
+import com.indeema.email.provider.ProviderTestUtils;
+import com.indeema.email.service.EasTestAuthenticatorService;
+import com.indeema.email.service.MailService;
+import com.indeema.email.service.MailService.AccountSyncReport;
+import com.indeema.emailcommon.provider.Account;
+import com.indeema.emailcommon.provider.EmailContent;
+import com.indeema.emailcommon.provider.HostAuth;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -42,7 +44,7 @@ import java.util.List;
  * Tests of the Email provider.
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.service.MailServiceTests email
+ *   runtest -c com.indeema.email.service.MailServiceTests email
  */
 public class MailServiceTests extends AccountTestCase {
 

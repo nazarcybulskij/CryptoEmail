@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-sw600dp/bools.xml -->
+    <eat-comment/>
+    <bool name="show_two_pane_search_result">true</bool>
+    <bool name="use_two_pane">true</bool>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-sw600dp/colors.xml -->
+    <eat-comment/>
+    <color name="message_view_fogged_glass_color">#00000000</color>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values-sw600dp/colors.xml -->
+    <eat-comment/>
+    <color name="senders_text_color_read">#444444</color>
+    <color name="senders_text_color_unread">#333333</color>
+    <color name="snippet_text_color_read">#666666</color>
+    <color name="snippet_text_color_unread">#555555</color>
+    <color name="subject_text_color_read">#444444</color>
+    <color name="subject_text_color_unread">#333333</color>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values-sw600dp/dimen.xml -->
+    <eat-comment/>
+    <dimen name="account_dropdown_dropdownwidth">496dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-sw600dp/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="checkmark_margin_top">4sp</dimen>
+    <dimen name="compose_scrollview_width">600dip</dimen>
+    <dimen name="mailbox_list_count_margin_left">16dip</dimen>
+    <dimen name="mailbox_list_padding_left">16dip</dimen>
+    <dimen name="mailbox_list_padding_right">24dip</dimen>
+    <dimen name="message_header_badge_width">64dip</dimen>
+    <dimen name="message_header_bottom_padding">4dip</dimen>
+    <dimen name="message_header_height">64dip</dimen>
+    <dimen name="message_header_name_margin">16dip</dimen>
+    <dimen name="message_list_icon_padding_compensation">-6dip</dimen>
+    <dimen name="replystate_margin_left">7dip</dimen>
+    <dimen name="replystate_margin_top">10sp</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values-sw600dp/dimen.xml -->
+    <eat-comment/>
+    <dimen name="senders_font_size">18sp</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-sw600dp/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="settings_buttons_padding_bottom">48dip</dimen>
+    <dimen name="settings_buttons_padding_top">48dip</dimen>
+    <dimen name="settings_fragment_padding_left">32dip</dimen>
+    <dimen name="settings_fragment_padding_right">32dip</dimen>
+    <dimen name="settings_fragment_padding_top">32dip</dimen>
+    <dimen name="setup_buttons_padding_bottom">48dip</dimen>
+    <dimen name="setup_buttons_padding_left">16dip</dimen>
+    <dimen name="setup_buttons_padding_right">16dip</dimen>
+    <dimen name="setup_buttons_padding_top">64dip</dimen>
+    <dimen name="setup_buttons_vertical_spacing">48dip</dimen>
+    <dimen name="setup_fragment_padding_left">0dip</dimen>
+    <dimen name="setup_fragment_padding_right">0dip</dimen>
+    <dimen name="setup_fragment_padding_top">0dip</dimen>
+    <dimen name="setup_item_inset_left">16dip</dimen>
+    <dimen name="setup_item_inset_right">64dip</dimen>
+    <dimen name="star_margin_top">30sp</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values-sw600dp/styles.xml -->
+    <eat-comment/>
+    <style name="AccountSpinnerAnchorTextPrimary" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    </style>
+    <style name="AccountSwitchSpinnerItem">
+        <item name="android:layout_width">308dip</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-sw600dp/styles.xml -->
+    <eat-comment/>
+    <style name="Attachment.Button" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_marginRight">16dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:textColor">@color/buttontext</item>
+        <item name="android:textSize">14dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values-sw600dp/styles.xml -->
+    <eat-comment/>
+    <style name="ComposeBodyStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:inputType">textLongMessage|textMultiLine|textAutoCorrect|textCapSentences</item>
+        <item name="android:imeOptions">flagNoExtractUi|actionDone|flagNoEnterAction</item>
+        <item name="android:textColorHint">@color/compose_label_text</item>
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">42dip</item>
+    </style>
+    <style name="ComposeEditTextView">
+        <item name="android:minHeight">44dip</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="ComposeFieldLayout" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">0dip</item>
+    </style>
+    <style name="ComposeHeading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/compose_label_text</item>
+        <item name="android:layout_gravity">center_vertical</item>
+     </style>
+    <style name="RecipientComposeFieldLayout" parent="@style/ComposeFieldLayout">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="RecipientComposeFieldSpacer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4dip</item>
+    </style>
+    <style name="RecipientComposeHeading" parent="@style/ComposeHeading">
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:layout_marginLeft">0dip</item>
+     </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-chips/values-sw600dp/styles.xml -->
+    <eat-comment/>
+    <style name="RecipientEditTextView" parent="@android:attr/autoCompleteTextViewStyle">
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">4dip</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">-4dip</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values-sw600dp/styles.xml -->
+    <eat-comment/>
+    <style name="RecipientEditTextViewStyle" parent="@style/RecipientEditTextView">
+        <item name="android:minHeight">42dip</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-sw600dp/styles.xml -->
+    <eat-comment/>
+    <style name="accountSettingsButton">
+        <item name="android:layout_width">208sp</item>
+        <item name="android:layout_height">48sp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="accountSettingsHeadline">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="accountSetupButton">
+        <item name="android:layout_width">208dp</item>
+        <item name="android:layout_height">48sp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="accountSetupHeadline">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/account_setup_headline_color</item>
+    </style>
+    <style name="accountSetupInfoText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/account_setup_info_text_color</item>
+    </style>
+    <style name="accountSetupLabelText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/account_setup_label_text_color</item>
+    </style>
+    <style name="accountSetupTypePrevious" parent="@style/accountSetupButton">
+        <item name="android:layout_toRightOf">@+id/main_content"</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="action_bar_spinner_primary_text">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="action_bar_spinner_secondary_text">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="message_compose_header_field_container" parent="@android:style/Widget.AutoCompleteTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+    <style name="message_compose_header_field_container_no_tray" parent="PlainEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="message_compose_header_field_label">
+        <item name="android:layout_width">@dimen/message_compose_field_label_width</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">@color/text_secondary_color</item>
+    </style>
+    <style name="message_compose_header_field_value" parent="PlainEditText">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="message_compose_horizontal_divider">
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">?android:attr/dividerHorizontal</item>
+    </style>
+    <style name="message_header_sender_address">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/text_secondary_color_inverse</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="message_header_sender_name">
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">@color/text_primary_color_inverse</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="message_list_item_normal">
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+    </style>
+    <style name="message_list_item_wide">
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+    <style name="message_view_action_buttons" parent="android:Widget.Holo.Button.Borderless">
+        <item name="android:layout_width">56dip</item>
+        <item name="android:layout_height">56dip</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="message_view_horizontal_divider">
+        <item name="android:layout_height">2dip</item>
+        <item name="android:background">?android:attr/dividerHorizontal</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values-sw600dp/styles.xml -->
+    <eat-comment/>
+    <style name="unreadCountActionBarTablet" parent="@style/unreadCountActionBar">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+</resources>

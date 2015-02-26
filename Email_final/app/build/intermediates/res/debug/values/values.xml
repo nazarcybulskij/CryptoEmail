@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="account_settings_check_frequency_entries">
+        <item>@string/account_setup_options_mail_check_frequency_never</item>
+        <item>@string/account_setup_options_mail_check_frequency_5min</item>
+        <item>@string/account_setup_options_mail_check_frequency_10min</item>
+        <item>@string/account_setup_options_mail_check_frequency_15min</item>
+        <item>@string/account_setup_options_mail_check_frequency_30min</item>
+        <item>@string/account_setup_options_mail_check_frequency_1hour</item>
+    </string-array>
+    <string-array name="account_settings_check_frequency_entries_push">
+        <item>@string/account_setup_options_mail_check_frequency_push</item>
+        <item>@string/account_setup_options_mail_check_frequency_never</item>
+        <item>@string/account_setup_options_mail_check_frequency_5min</item>
+        <item>@string/account_setup_options_mail_check_frequency_10min</item>
+        <item>@string/account_setup_options_mail_check_frequency_15min</item>
+        <item>@string/account_setup_options_mail_check_frequency_30min</item>
+        <item>@string/account_setup_options_mail_check_frequency_1hour</item>
+    </string-array>
+    <string-array name="account_settings_check_frequency_values" translatable="false">
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="account_settings_check_frequency_values_push" translatable="false">
+        <item>-2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_entries">
+        <item>@string/account_setup_options_mail_window_auto</item>
+        <item>@string/account_setup_options_mail_window_1day</item>
+        <item>@string/account_setup_options_mail_window_3days</item>
+        <item>@string/account_setup_options_mail_window_1week</item>
+        <item>@string/account_setup_options_mail_window_2weeks</item>
+        <item>@string/account_setup_options_mail_window_1month</item>
+        <item>@string/account_setup_options_mail_window_all</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_entries_with_default">
+        <item>@string/account_setup_options_mail_window_default</item>
+        <item>@string/account_setup_options_mail_window_auto</item>
+        <item>@string/account_setup_options_mail_window_1day</item>
+        <item>@string/account_setup_options_mail_window_3days</item>
+        <item>@string/account_setup_options_mail_window_1week</item>
+        <item>@string/account_setup_options_mail_window_2weeks</item>
+        <item>@string/account_setup_options_mail_window_1month</item>
+        <item>@string/account_setup_options_mail_window_all</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_values" translatable="false">
+        <item>-2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="account_settings_mail_window_values_with_default" translatable="false">
+        <item>0</item>
+        <item>-2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="account_settings_vibrate_when_entries">
+        <!-- Always -->
+        <item>@string/account_settings_vibrate_when_always</item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>@string/account_settings_vibrate_when_silent</item>
+        <!-- Never -->
+        <item>@string/account_settings_vibrate_when_never</item>
+    </string-array>
+    <string-array name="account_settings_vibrate_when_values" translatable="false">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+    <array name="combined_view_account_colors" translatable="false">
+        <item>@color/combined_view_account_color_1</item>
+        <item>@color/combined_view_account_color_2</item>
+        <item>@color/combined_view_account_color_3</item>
+        <item>@color/combined_view_account_color_4</item>
+        <item>@color/combined_view_account_color_5</item>
+        <item>@color/combined_view_account_color_6</item>
+        <item>@color/combined_view_account_color_7</item>
+        <item>@color/combined_view_account_color_8</item>
+        <item>@color/combined_view_account_color_9</item>
+    </array>
+    <string-array name="general_preference_auto_advance_entries">
+        <!-- Move to newer -->
+        <item>@string/general_preference_auto_advance_newer</item>
+        <!-- Move to older -->
+        <item>@string/general_preference_auto_advance_older</item>
+        <!-- Move to message list -->
+        <item>@string/general_preference_auto_advance_message_list</item>
+    </string-array>
+    <string-array name="general_preference_auto_advance_values" translatable="false">
+        <!-- Move to newer -->
+        <item>newer</item>
+        <!-- Move to older -->
+        <item>older</item>
+        <!-- Move to message list -->
+        <item>list</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_entries">
+        <item>@string/general_preference_text_zoom_tiny</item>
+        <item>@string/general_preference_text_zoom_small</item>
+        <item>@string/general_preference_text_zoom_normal</item>
+        <item>@string/general_preference_text_zoom_large</item>
+        <item>@string/general_preference_text_zoom_huge</item>
+    </string-array>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="general_preference_text_zoom_size" translatable="false">
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.5</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Tiny text</item>
+        <item>Small text</item>
+        <item>Normal-sized text</item>
+        <item>Large text</item>
+        <item>Huge text</item>
+    </string-array>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="general_preference_text_zoom_values" translatable="false">
+        <item>tiny</item>
+        <item>small</item>
+        <item>normal</item>
+        <item>large</item>
+        <item>huge</item>
+    </string-array>
+    <array name="mailbox_display_icons" translatable="false">
+        <!-- TYPE_INBOX = 0 -->
+        <item>@drawable/ic_folder_inbox_holo_light</item>
+        <!-- TYPE_MAIL = 1 -->
+        <item/>
+        <!-- TYPE_PARENT = 2 -->
+        <item/>
+        <!-- TYPE_DRAFTS = 3 -->
+        <item>@drawable/ic_folder_drafts_holo_light</item>
+        <!-- TYPE_OUTBOX = 4 -->
+        <item>@drawable/ic_folder_outbox_holo_light</item>
+        <!-- TYPE_SENT = 5 -->
+        <item>@drawable/ic_folder_sent_holo_light</item>
+        <!-- TYPE_TRASH = 6 -->
+        <item>@drawable/ic_menu_trash_holo_light</item>
+        <!-- TYPE_JUNK = 7 -->
+        <item>@drawable/ic_spam_normal_holo_light</item>
+    </array>
+    <string-array name="mailbox_display_names" translatable="false">
+        <!-- TYPE_INBOX = 0 -->
+        <item>@string/mailbox_name_display_inbox</item>
+        <!-- TYPE_MAIL = 1 -->
+        <item/>
+        <!-- TYPE_PARENT = 2 -->
+        <item/>
+        <!-- TYPE_DRAFTS = 3 -->
+        <item>@string/mailbox_name_display_drafts</item>
+        <!-- TYPE_OUTBOX = 4 -->
+        <item>@string/mailbox_name_display_outbox</item>
+        <!-- TYPE_SENT = 5 -->
+        <item>@string/mailbox_name_display_sent</item>
+        <!-- TYPE_TRASH = 6 -->
+        <item>@string/mailbox_name_display_trash</item>
+        <!-- TYPE_JUNK = 7 -->
+        <item>@string/mailbox_name_display_junk</item>
+    </string-array>
+    <integer-array name="subject_lengths">
+        <item>50</item>
+        <item>25</item>
+    </integer-array>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/bools.xml -->
+    <eat-comment/>
+    <bool name="expand_middle_view">true</bool>
+    <bool name="show_two_pane_search_result">false</bool>
+    <bool name="use_two_pane">false</bool>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="account_folder_list_item_separator">#303030</color>
+    <color name="account_setup_divider_color">#CCCCCC</color>
+    <color name="account_setup_headline_color">#5E802B</color>
+    <color name="account_setup_info_text_color">#000000</color>
+    <color name="account_setup_label_text_color">#666666</color>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/colors.xml -->
+    <eat-comment/>
+    <color name="actionbar_secondary">#777777</color>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="button_text_color">#777777</color>
+    <color name="button_text_disabled_color">#cccccc</color>
+    <color name="combined_view_account_color_1">#ff71aea7</color>
+    <color name="combined_view_account_color_2">#ff621919</color>
+    <color name="combined_view_account_color_3">#ff18462f</color>
+    <color name="combined_view_account_color_4">#ffbf8e52</color>
+    <color name="combined_view_account_color_5">#ff001f79</color>
+    <color name="combined_view_account_color_6">#ffa8afc2</color>
+    <color name="combined_view_account_color_7">#ff6b64c4</color>
+    <color name="combined_view_account_color_8">#ff738359</color>
+    <color name="combined_view_account_color_9">#ff9d50a4</color>
+    <color name="compose_label_text">#aaaaaa</color>
+    <color name="connection_error_banner">#fffff1a8</color>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/colors.xml -->
+    <eat-comment/>
+    <color name="date_text_color_read">@color/senders_text_color_read</color>
+    <color name="date_text_color_unread">@color/senders_text_color_unread</color>
+    <color name="default_text_color">#ff000000</color>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="divider_color">#ff808080</color>
+    <color name="error_bar_background">#ffff66</color>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/colors.xml -->
+    <eat-comment/>
+    <color name="label_list_heading_text_color">#777777</color>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="mailbox_drop_available_bg_color">#00ffffff</color>
+    <color name="mailbox_drop_destructive_bg_color">#fff10000</color>
+    <color name="mailbox_drop_unavailable_fg_color">#ff999999</color>
+    <color name="message_activated_color">#3cb8e6</color>
+    <color name="message_list_item_background_read">#000000</color>
+    <color name="message_list_item_background_unread">#404040</color>
+    <color name="message_view_header_color">#3cb8e6</color>
+    <color name="message_view_info_back_color">#deecfa</color>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/colors.xml -->
+    <eat-comment/>
+    <color name="senders_text_color_read">#555555</color>
+    <color name="senders_text_color_unread">#333333</color>
+    <color name="snippet_text_color_read">#777777</color>
+    <color name="snippet_text_color_unread">#555555</color>
+    <color name="subject_text_color_read">#777777</color>
+    <color name="subject_text_color_unread">#555555</color>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="text_disabled_color">#888888</color>
+    <color name="text_primary_color">#000000</color>
+    <color name="text_primary_color_inverse">#ffffff</color>
+    <color name="text_secondary_color">#666666</color>
+    <color name="text_secondary_color_inverse">#eeeeee</color>
+    <color name="text_ternary_color">#aaaaaa</color>
+    <color name="widget_default_text_color">#ff000000</color>
+    <color name="widget_light_text_color">#ff666666</color>
+    <color name="widget_title_color">#333333</color>
+    <color name="widget_unread_color">#777777</color>
+    <declare-styleable name="RecipientEditTextView"><attr format="reference" name="invalidChipBackground"/><attr format="reference" name="chipBackground"/><attr format="reference" name="chipBackgroundPressed"/><attr format="reference" name="chipDelete"/><attr format="reference" name="chipAlternatesLayout"/><attr format="reference" name="chipPadding"/><attr format="reference" name="chipHeight"/><attr format="reference" name="chipFontSize"/></declare-styleable>
+    <declare-styleable name="SizeBoundingFrameLayout_attributes"><attr format="dimension" name="maxWidth"/><attr format="dimension" name="maxHeight"/></declare-styleable>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="account_dropdown_dropdownwidth">274dip</dimen>
+    <dimen name="actionbar_subject_padding_right">8dp</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="button_minWidth">100sp</dimen>
+    <dimen name="checkmark_left_margin_wide">16dip</dimen>
+    <dimen name="checkmark_margin_top">3sp</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-chips/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="chip_height">32dip</dimen>
+    <dimen name="chip_padding">8dip</dimen>
+    <dimen name="chip_text_size">14sp</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="compose_scrollview_width">700dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="date_font_size">12sp</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="date_margin_top">9sp</dimen>
+    <dimen name="date_region_width_wide">144dip</dimen>
+    <dimen name="error_message_height">48dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-chips/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="line_spacing_extra">4dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="mailbox_list_count_margin_left">8dip</dimen>
+    <dimen name="mailbox_list_padding_left">8dip</dimen>
+    <dimen name="mailbox_list_padding_right">16dip</dimen>
+    <dimen name="message_header_badge_width">48dip</dimen>
+    <dimen name="message_header_height">48dip</dimen>
+    <dimen name="message_header_name_margin">4dip</dimen>
+    <dimen name="message_list_badge_margin">4dip</dimen>
+    <dimen name="message_list_drag_count_font_size">42sp</dimen>
+    <dimen name="message_list_drag_count_left_margin">16dip</dimen>
+    <dimen name="message_list_drag_message_font_size">18sp</dimen>
+    <dimen name="message_list_drag_message_right_margin">16dip</dimen>
+    <dimen name="message_list_drag_offset">16dip</dimen>
+    <dimen name="message_list_icon_padding_compensation">3dip</dimen>
+    <dimen name="message_list_item_color_tip_height">6dip</dimen>
+    <dimen name="message_list_item_color_tip_width">35dip</dimen>
+    <dimen name="message_list_item_height_normal">70sp</dimen>
+    <dimen name="message_list_item_height_wide">70sp</dimen>
+    <dimen name="minimum_width_wide_mode">720dip</dimen>
+    <dimen name="replystate_margin_left">0dip</dimen>
+    <dimen name="replystate_margin_top">10sp</dimen>
+    <dimen name="search_view_width">400dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="senders_font_size">18sp</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="settings_buttons_padding_bottom">22dip</dimen>
+    <dimen name="settings_buttons_padding_top">22dip</dimen>
+    <dimen name="settings_fragment_padding_left">16dip</dimen>
+    <dimen name="settings_fragment_padding_right">16dip</dimen>
+    <dimen name="settings_fragment_padding_top">16dip</dimen>
+    <dimen name="setup_credentials_input_width">340dip</dimen>
+    <dimen name="setup_fragment_padding_left">16dip</dimen>
+    <dimen name="setup_fragment_padding_right">16dip</dimen>
+    <dimen name="setup_fragment_padding_top">16dip</dimen>
+    <dimen name="setup_item_inset_left">0dip</dimen>
+    <dimen name="setup_item_inset_right">0dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="spinner_frame_width">168dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="star_margin_top">28sp</dimen>
+    <dimen name="star_right_margin_wide">16dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="subject_font_size">14sp</dimen>
+    <dimen name="wide_senders_font_size">16sp</dimen>
+    <dimen name="wide_subject_font_size">16sp</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="widget_date_font_size">14sp</dimen>
+    <dimen name="widget_senders_font_size">14sp</dimen>
+    <dimen name="widget_subject_font_size">14sp</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/constants.xml -->
+    <eat-comment/>
+    <integer name="max_num_notification_digest_items">10</integer>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/dimensions.xml -->
+    <eat-comment/>
+    <integer name="message_search_list_header_mode">1</integer>
+    <integer name="message_use_wide_header_mode">0</integer>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <plurals name="gal_completed_fmt">
+        <!-- Case of one result from server. -->
+        <item quantity="one"><ns1:g example="1" id="results">%1$d</ns1:g> result
+        from <ns1:g id="domain">%2$s</ns1:g></item>
+
+        <!-- Case of multiple results from server -->
+        <item quantity="other"><ns1:g example="20" id="results">%1$d</ns1:g> results
+        from <ns1:g id="domain">%2$s</ns1:g></item>
+    </plurals>
+    <plurals name="message_delete_confirm">
+        <item quantity="one">Delete this message?</item>
+        <item quantity="other">Delete these messages?</item>
+    </plurals>
+    <plurals name="message_deleted_toast">
+        <item quantity="one">Message deleted.</item>
+        <item quantity="other">Messages deleted.</item>
+    </plurals>
+    <plurals name="message_moved_toast">
+        <item quantity="one"><ns1:g example="1" id="num_message">%1$d</ns1:g>
+        message moved to <ns1:g example="Inbox" id="mailbox_name">%2$s</ns1:g></item>
+        <item quantity="other"><ns1:g example="5" id="num_message">%1$d</ns1:g>
+        messages moved to <ns1:g example="Inbox" id="mailbox_name">%2$s</ns1:g></item>
+    </plurals>
+    <plurals name="message_view_attachment_bytes">
+        <item quantity="one"><ns1:g example="1" id="size_in_bytes">%d</ns1:g>B</item>
+        <item quantity="other"><ns1:g example="279" id="size_in_bytes">%d</ns1:g>B</item>
+    </plurals>
+    <plurals name="message_view_attachment_gigabytes">
+        <item quantity="one"><ns1:g example="1" id="size_in_gigabytes">%d</ns1:g>GB</item>
+        <item quantity="other"><ns1:g example="279" id="size_in_gigabytes">%d</ns1:g>GB</item>
+    </plurals>
+    <plurals name="message_view_attachment_kilobytes">
+        <item quantity="one"><ns1:g example="1" id="size_in_kilobytes">%d</ns1:g>KB</item>
+        <item quantity="other"><ns1:g example="279" id="size_in_kilobytes">%d</ns1:g>KB</item>
+    </plurals>
+    <plurals name="message_view_attachment_megabytes">
+        <item quantity="one"><ns1:g example="1" id="size_in_megabytes">%d</ns1:g>MB</item>
+        <item quantity="other"><ns1:g example="279" id="size_in_megabytes">%d</ns1:g>MB</item>
+    </plurals>
+    <plurals name="message_view_selected_message_count">
+        <item quantity="one"><ns1:g example="1" id="message_count">%d</ns1:g> selected</item>
+        <item quantity="other"><ns1:g example="9" id="message_count">%d</ns1:g> selected</item>
+    </plurals>
+    <plurals name="message_view_show_attachments_action">
+        <item quantity="one">Attachment <ns1:g example="1" id="num_attachment">%1$d</ns1:g>
+            </item>
+        <item quantity="other">Attachments <ns1:g example="3" id="num_attachment">%1$d</ns1:g>
+            </item>
+    </plurals>
+    <plurals name="move_messages">
+        <item quantity="one">Move message</item>
+        <item quantity="other">Move messages</item>
+    </plurals>
+    <plurals name="notification_new_multi_account_fmt">
+        <!-- Case of "few" (small number of) accounts with unread messages. -->
+        <item quantity="few">in <ns1:g example="2" id="number_accounts">%d</ns1:g> accounts</item>
+        <!-- Case of plural number of accounts with unread messages. -->
+        <item quantity="other">in <ns1:g example="10" id="number_accounts">%d</ns1:g> accounts</item>
+    </plurals>
+    <plurals name="notification_new_one_account_fmt">
+        <!-- Case of one new message. -->
+        <item quantity="one"><ns1:g example="1" id="unread_message_count">%1$d</ns1:g> unread (<ns1:g id="account">%2$s</ns1:g>)</item>
+
+        <!-- Case of "few" (small number of) new messages. -->
+        <item quantity="few"><ns1:g example="2" id="unread_message_count">%1$d</ns1:g> unread (<ns1:g id="account">%2$s</ns1:g>)</item>
+
+        <!-- Case of a plural number of new messages. -->
+        <item quantity="other"><ns1:g example="279" id="unread_message_count">%1$d</ns1:g> unread (<ns1:g id="account">%2$s</ns1:g>)</item>
+    </plurals>
+    <plurals name="number_of_accounts">
+        <item quantity="one"><ns1:g example="1" id="num_accounts">%1$d</ns1:g> account</item>
+        <item quantity="other"><ns1:g example="2" id="num_accounts">%1$d</ns1:g> accounts</item>
+    </plurals>
+    <plurals name="picker_combined_view_account_count">
+        <item quantity="one"><ns1:g example="1" id="account_count">%d</ns1:g> account</item>
+        <item quantity="other"><ns1:g example="9" id="account_count">%d</ns1:g> accounts</item>
+    </plurals>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="account">Account</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="account_delete_dlg_instructions_fmt">
+    The account \"<ns1:g id="account">%s</ns1:g>\" will be removed from Email.</string>
+    <string name="account_delete_dlg_title">Remove account</string>
+    <string name="account_duplicate_dlg_message_fmt">
+        You\'re already using this username for the account \"<ns1:g id="duplicate">%s</ns1:g>\".
+    </string>
+    <string name="account_duplicate_dlg_title">Duplicate account</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="account_error">Failed to retrieve account information.</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="account_folder_list_summary_drafts">Drafts</string>
+    <string name="account_folder_list_summary_inbox">Inbox</string>
+    <string name="account_folder_list_summary_outbox">Outbox</string>
+    <string name="account_folder_list_summary_starred">Starred</string>
+    <string name="account_name_display_all">All accounts</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="account_out_of_quota">Account is out of disk quota</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="account_password_spaces_error">This password starts or ends with one or more
+        space characters. Many servers don\'t support passwords with spaces.</string>
+    <string name="account_security_dialog_content_fmt">
+         <ns1:g id="account">%s</ns1:g> requires that you update your security settings.</string>
+    <string name="account_security_dialog_title">Security update</string>
+    <string name="account_security_policy_explanation_fmt">
+         The server <ns1:g id="server">%s</ns1:g> requires that you allow it to remotely control
+         some security features of your Android device.</string>
+    <string name="account_security_title">Device security</string>
+    <string name="account_settings_action">Account settings</string>
+    <string name="account_settings_background_attachments_label">
+        Download attachments</string>
+    <string name="account_settings_background_attachments_summary">
+        Auto-download attachments to recent messages via Wi-Fi</string>
+    <string name="account_settings_category_delete_account">Remove account</string>
+    <string name="account_settings_data_usage">Data usage</string>
+    <string name="account_settings_default_label">Default account</string>
+    <string name="account_settings_default_summary">Send email from this account by default</string>
+    <string name="account_settings_delete_account_label">Remove account</string>
+    <string name="account_settings_description_label">Account name</string>
+    <string name="account_settings_edit_quick_responses_label">Quick responses</string>
+    <string name="account_settings_edit_quick_responses_summary">
+        Edit text that you frequently insert when composing emails</string>
+    <string name="account_settings_exit_server_settings">Discard unsaved changes?</string>
+    <string name="account_settings_incoming_label">Incoming settings</string>
+    <string name="account_settings_incoming_summary">
+        Username, password, and other incoming server settings</string>
+    <string name="account_settings_login_dialog_content_fmt">
+         The username or password for <ns1:g id="account">%s</ns1:g> is incorrect.
+         Update them now?</string>
+    <string name="account_settings_login_dialog_title">Couldn\'t sign in</string>
+    <string name="account_settings_mail_check_frequency_label">Inbox check frequency</string>
+    <string name="account_settings_name_label">Your name</string>
+    <string name="account_settings_notifications">Notification settings</string>
+    <string name="account_settings_notify_label">Email notifications</string>
+    <string name="account_settings_notify_summary">Notify in System bar when email arrives</string>
+    <string name="account_settings_outgoing_label">Outgoing settings</string>
+    <string name="account_settings_outgoing_summary">
+        Username, password, and other outgoing server settings</string>
+    <string name="account_settings_ringtone">Choose ringtone</string>
+    <string name="account_settings_servers">Server settings</string>
+    <string name="account_settings_signature_hint">Append text to messages you send</string>
+    <string name="account_settings_signature_label">Signature</string>
+    <string name="account_settings_summary">Sync frequency, notifications, etc.</string>
+    <string name="account_settings_sync_calendar_enable">Sync Calendar</string>
+    <string name="account_settings_sync_calendar_summary">Sync calendar for this account</string>
+    <string name="account_settings_sync_contacts_enable">Sync contacts</string>
+    <string name="account_settings_sync_contacts_summary">Sync contacts for this account</string>
+    <string name="account_settings_sync_email_enable">Sync email</string>
+    <string name="account_settings_sync_email_summary">Sync email for this account</string>
+    <string name="account_settings_vibrate_when_always">Always</string>
+    <string name="account_settings_vibrate_when_dlg_title">Vibrate</string>
+    <string name="account_settings_vibrate_when_label">Vibrate</string>
+    <string name="account_settings_vibrate_when_never">Never</string>
+    <string name="account_settings_vibrate_when_silent">Only when silent</string>
+    <string name="account_settings_vibrate_when_summary">Also vibrate when email arrives</string>
+    <string name="account_setup_account_type_exchange_action" translatable="false">Exchange</string>
+    <string name="account_setup_account_type_exchange_action_alternate" translatable="false">Microsoft Exchange ActiveSync</string>
+    <string name="account_setup_account_type_headline">Account type</string>
+    <string name="account_setup_account_type_imap_action" translatable="false">IMAP</string>
+    <string name="account_setup_account_type_instructions">What type of account is this?</string>
+    <string name="account_setup_account_type_pop_action" translatable="false">POP3</string>
+    <string name="account_setup_account_type_title">Account setup</string>
+    <string name="account_setup_basics_default_label">
+        Send email from this account by default.</string>
+    <string name="account_setup_basics_email_label">Email address</string>
+    <string name="account_setup_basics_exchange_title">
+        Add an Exchange account</string>
+    <string name="account_setup_basics_exchange_title_alternate">
+        Add an Exchange ActiveSync account</string>
+    <string name="account_setup_basics_headline">Email account</string>
+    <string name="account_setup_basics_manual_setup_action">Manual setup</string>
+    <string name="account_setup_basics_password_label">Password</string>
+    <string name="account_setup_basics_title">Account setup</string>
+    <string name="account_setup_check_settings_check_incoming_msg">
+    Checking incoming server settings\u2026</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">
+    Checking outgoing server settings\u2026</string>
+    <string name="account_setup_check_settings_retr_info_msg">
+    Retrieving account information\u2026</string>
+    <string name="account_setup_exchange_certificate_title">Client certificate</string>
+    <string name="account_setup_exchange_device_id_label">Mobile Device ID</string>
+    <string name="account_setup_exchange_headline">Server settings</string>
+    <string name="account_setup_exchange_no_certificate">None</string>
+    <string name="account_setup_exchange_remove_certificate">Remove</string>
+    <string name="account_setup_exchange_select_certificate">Select</string>
+    <string name="account_setup_exchange_server_label">Server</string>
+    <string name="account_setup_exchange_ssl_label">Use secure connection (SSL)</string>
+    <string name="account_setup_exchange_title">Account setup</string>
+    <string name="account_setup_exchange_trust_certificates_label">Accept all SSL certificates</string>
+    <string name="account_setup_exchange_use_certificate">Use client certificate</string>
+    <string name="account_setup_exchange_username_label">Domain\\Username</string>
+    <string name="account_setup_failed_access_denied">
+         You don\'t have permission to sync with this server. Contact your server\'s
+         administrator for more information.</string>
+    <string name="account_setup_failed_auth_required">Authentication methods aren\'t supported by server.</string>
+    <string name="account_setup_failed_certificate_inaccessible">Certificate is invalid or inaccessible.</string>
+    <string name="account_setup_failed_certificate_required">Client certificate is required. Connect to server with client certificate?</string>
+    <string name="account_setup_failed_check_credentials_message">
+         The server responded with an error. Check your username and password
+         then try again.</string>
+    <string name="account_setup_failed_dlg_auth_message">Username or password incorrect.</string>
+    <string name="account_setup_failed_dlg_auth_message_fmt">Username or password incorrect.\n(<ns1:g id="error">%s</ns1:g>)</string>
+    <string name="account_setup_failed_dlg_certificate_message">Can\'t safely connect to server.</string>
+    <string name="account_setup_failed_dlg_certificate_message_fmt">Can\'t safely connect to server.\n(<ns1:g id="error">%s</ns1:g>)</string>
+    <string name="account_setup_failed_dlg_edit_details_action">Edit details</string>
+    <string name="account_setup_failed_dlg_server_message">Can\'t connect to server.</string>
+    <string name="account_setup_failed_dlg_server_message_fmt">Can\'t connect to server.\n(<ns1:g id="error">%s</ns1:g>)</string>
+    <string name="account_setup_failed_dlg_title">Couldn\'t finish</string>
+    <string name="account_setup_failed_ioerror">Couldn\'t open connection to server.</string>
+    <string name="account_setup_failed_protocol_unsupported">
+         You typed an incorrect server address or the server requires a protocol version that
+         Email doesn\'t support.</string>
+    <string name="account_setup_failed_security">Couldn\'t open connection to server due to security error.</string>
+    <string name="account_setup_failed_security_policies_unsupported">
+         This server requires security features that your Android device doesn\'t support,
+          including: <ns1:g id="error">%s</ns1:g></string>
+    <string name="account_setup_failed_tls_required">TLS required but not supported by server.</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">
+        When I delete from Inbox</string>
+    <string name="account_setup_incoming_delete_policy_label">Delete email from server</string>
+    <string name="account_setup_incoming_delete_policy_never_label">Never</string>
+    <string name="account_setup_incoming_headline">Incoming server settings</string>
+    <string name="account_setup_incoming_imap_path_prefix_hint">Optional</string>
+    <string name="account_setup_incoming_imap_path_prefix_label">IMAP path prefix</string>
+    <string name="account_setup_incoming_imap_server_label">IMAP server</string>
+    <string name="account_setup_incoming_password_label">Password</string>
+    <string name="account_setup_incoming_pop_server_label">POP3 server</string>
+    <string name="account_setup_incoming_port_label">Port</string>
+    <string name="account_setup_incoming_security_label">Security type</string>
+    <string name="account_setup_incoming_security_none_label">None</string>
+    <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">
+        SSL/TLS (Accept all certificates)</string>
+    <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">
+        STARTTLS (accept all certificates)</string>
+    <string name="account_setup_incoming_title">Account setup</string>
+    <string name="account_setup_incoming_username_label">Username</string>
+    <string name="account_setup_names_account_name_label">
+        Give this account a name (optional)</string>
+    <string name="account_setup_names_headline">
+        Your account is set up, and email is on its way!</string>
+    <string name="account_setup_names_title">Account setup</string>
+    <string name="account_setup_names_user_name_empty_error">This field can\'t be blank.</string>
+    <string name="account_setup_names_user_name_label">
+        Your name (displayed on outgoing messages)</string>
+    <string name="account_setup_options_background_attachments_label">
+        Automatically download attachments when connected to Wi-Fi</string>
+    <string name="account_setup_options_default_label">Send email from this account by default.</string>
+    <string name="account_setup_options_headline">Account options</string>
+    <string name="account_setup_options_mail_check_frequency_10min">Every 10 minutes</string>
+    <string name="account_setup_options_mail_check_frequency_15min">Every 15 minutes</string>
+    <string name="account_setup_options_mail_check_frequency_1hour">Every hour</string>
+    <string name="account_setup_options_mail_check_frequency_30min">Every 30 minutes</string>
+    <string name="account_setup_options_mail_check_frequency_5min">Every 5 minutes</string>
+    <string name="account_setup_options_mail_check_frequency_label">Inbox checking frequency</string>
+    <string name="account_setup_options_mail_check_frequency_never">Never</string>
+    <string name="account_setup_options_mail_check_frequency_push">Automatic (Push)</string>
+    <string name="account_setup_options_mail_window_1day">One day</string>
+    <string name="account_setup_options_mail_window_1month">One month</string>
+    <string name="account_setup_options_mail_window_1week">One week</string>
+    <string name="account_setup_options_mail_window_2weeks">Two weeks</string>
+    <string name="account_setup_options_mail_window_3days">Three days</string>
+    <string name="account_setup_options_mail_window_all">All</string>
+    <string name="account_setup_options_mail_window_auto">Automatic</string>
+    <string name="account_setup_options_mail_window_default">Use account\'s default</string>
+    <string name="account_setup_options_mail_window_label">Days to sync</string>
+    <string name="account_setup_options_notify_label">Notify me when email arrives.</string>
+    <string name="account_setup_options_sync_calendar_label">Sync calendar from this account.
+    </string>
+    <string name="account_setup_options_sync_contacts_label">Sync contacts from this account.
+    </string>
+    <string name="account_setup_options_sync_email_label">Sync email from this account.
+    </string>
+    <string name="account_setup_options_title">Account settings</string>
+    <string name="account_setup_outgoing_headline">Outgoing server settings</string>
+    <string name="account_setup_outgoing_password_label">Password</string>
+    <string name="account_setup_outgoing_port_label">Port</string>
+    <string name="account_setup_outgoing_require_login_label">Require sign-in.</string>
+    <string name="account_setup_outgoing_security_label">Security type</string>
+    <string name="account_setup_outgoing_smtp_server_label">SMTP server</string>
+    <string name="account_setup_outgoing_title">Account setup</string>
+    <string name="account_setup_outgoing_username_label">Username</string>
+    <string name="account_setup_security_policies_required_fmt">
+         The server <ns1:g id="server">%s</ns1:g> requires that you allow it to remotely control
+         some security features of your Android device.  Do you want to finish setting up this
+         account?</string>
+    <string name="account_setup_security_required_title">Remote security administration</string>
+    <string name="account_setup_username_password_toast">
+        Type a valid email address and password.</string>
+    <string name="account_setup_username_uneditable_error">You can\'t change an account\'s username.
+         To add an account with a different username, touch Add Account.</string>
+    <string name="account_shortcut_picker_name">Email account</string>
+    <string name="account_shortcut_picker_title">Choose an account</string>
+    <string name="accounts_welcome">You can set up email for most accounts in just a few steps.
+    </string>
+    <string name="accounts_welcome_exchange">You can set up an Exchange account in just a few
+        steps.</string>
+    <string name="accounts_welcome_exchange_alternate">
+        You can set up an Exchange ActiveSync account in just a few steps.</string>
+    <string name="action_bar_mailbox_list_title">Folders</string>
+    <string name="add_account_action">Add account</string>
+    <string name="add_cc_bcc_menu">Add Cc/Bcc</string>
+    <string name="add_file_attachment">Attach file</string>
+    <string name="app_name">Email</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="application_name">Instant Upload</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="attachment_info_apk_install_disabled">
+            Apps can\'t be installed directly from email. First save
+            this app and then install it using the Downloads app.</string>
+    <string name="attachment_info_application_settings">App settings</string>
+    <string name="attachment_info_dialog_default_title">Attachment info</string>
+    <string name="attachment_info_dialog_wifi_title">Wi-Fi connection required</string>
+    <string name="attachment_info_malware">
+            You can\'t save or open this file because this type of attachment
+            might contain malicious software.</string>
+    <string name="attachment_info_no_intent">
+            There is no installed app that can open this attachment.
+            Try downloading an appropriate app from Android Market.</string>
+    <string name="attachment_info_policy">
+            This attachment can\'t be saved or opened because of
+            this account\'s security policies.</string>
+    <string name="attachment_info_sideload_disabled">
+            This attachment is an app. You must check Unknown Sources
+            in Settings > Apps before you can install it.</string>
+    <string name="attachment_info_unknown">Can\'t open attachment.</string>
+    <string name="attachment_info_wifi_only">
+            This attachment is too large to download over a mobile network.
+            You can download it the next time you connect to a Wi-Fi network.</string>
+    <string name="attachment_info_wifi_settings">Wi-Fi settings</string>
+    <string name="attachment_not_found">Couldn\'t download the attachment.</string>
+    <string name="bcc">Bcc</string>
+    <string name="body_hint">Compose email</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/build_number.xml -->
+    <eat-comment/>
+    <string name="build_number" translatable="false">20080722-0001</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="cancel">Cancel</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="cancel_action">Cancel</string>
+    <string name="cannot_move_multiple_accounts_toast">Can\'t move because selection contains multiple
+        accounts.</string>
+    <string name="cannot_move_protocol_not_supported_toast">Move isn\'t supported on POP3 accounts.
+        </string>
+    <string name="cannot_move_special_mailboxes_toast">Messages in Drafts, Outbox, and Sent can\'t be
+        moved.</string>
+    <string name="category_general_preferences">Application</string>
+    <string name="cc">Cc</string>
+    <string name="choose_attachment_dialog_title">Choose attachment</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/webview_context_menu_strings.xml -->
+    <eat-comment/>
+    <string name="choosertitle_sharevia">Share via</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="close_action">Close</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="completed_no_file">File not found</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="compose_action">Compose</string>
+    <string name="compose_title">Compose</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/webview_context_menu_strings.xml -->
+    <eat-comment/>
+    <string name="contextmenu_add_contact">Add contact</string>
+    <string name="contextmenu_copy">Copy</string>
+    <string name="contextmenu_copylink">Copy link URL</string>
+    <string name="contextmenu_dial_dot">Dial\u2026</string>
+    <string name="contextmenu_feedback">Send feedback</string>
+    <string name="contextmenu_help">Help</string>
+    <string name="contextmenu_map">Map</string>
+    <string name="contextmenu_openlink">Open in Browser</string>
+    <string name="contextmenu_send_mail">Send email</string>
+    <string name="contextmenu_sharelink">Share link</string>
+    <string name="contextmenu_sms_dot">SMS\u2026</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-chips/values/strings.xml -->
+    <eat-comment/>
+    <string name="copy_email">Copy email address</string>
+    <string name="copy_number">Copy phone number</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="create_action">Create new</string>
+    <string name="debug_clear_webview_cache" translatable="false">
+        Clear WebView cache</string>
+    <string name="debug_disable_graphics_acceleration_label" translatable="false">
+        Disable hardware graphics acceleration</string>
+    <string name="debug_enable_debug_logging_label" translatable="false">
+        Enable extra debug logging?</string>
+    <string name="debug_enable_exchange_file_logging_label" translatable="false">
+        Enable exchange sd card logging?</string>
+    <string name="debug_enable_exchange_logging_label" translatable="false">
+        Enable exchange parser logging? (extremely verbose)</string>
+    <string name="debug_enable_strict_mode_label" translatable="false">
+        Enable strict mode (with logging)</string>
+    <string name="debug_force_one_minute_refresh_label" translatable="false">
+        Force 1-minute refresh for POP/IMAP</string>
+    <string name="debug_title">Debug</string>
+    <string name="debug_version_fmt">Version: <ns1:g id="version">%s</ns1:g></string>
+    <string name="delete_action">Delete</string>
+    <string name="delete_quick_response_action">Delete</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="destination_format">%1$s \"%2$s\"</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="device_admin_description">Enables server-specified security policies</string>
+    <string name="device_admin_label">Email</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="dialog_first_wifi">Large files will be uploaded over a WiFi connection only.</string>
+    <string name="dialog_sync_all_canceled">Sync all canceled</string>
+    <string name="dialog_sync_all_error_title">Sync All</string>
+    <string name="dialog_sync_all_found_none">No additional photos/videos need to be uploaded.</string>
+    <string name="dialog_sync_all_preparing">Preparing <ns1:g example="5" id="photocount">%1$d</ns1:g> photos and <ns1:g example="4" id="videocount">%2$d</ns1:g> videos for upload...</string>
+    <string name="dialog_sync_all_scanning">Scanning for files...</string>
+    <string name="dialog_sync_all_server_error">There was a problem communicating with the server. Please try again later.</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="disable_admin_warning">WARNING: Deactivating the Email app\'s authority
+         to administer your device will delete all email accounts that require it, along with their
+         email, contacts, calendar events, and other data.</string>
+    <string name="discard_action">Discard</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-chips/values/strings.xml -->
+    <eat-comment/>
+    <string name="done">Return</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="done_action">Done</string>
+    <string name="edit_quick_response_dialog">Edit quick response</string>
+    <string name="eml_view_title">Viewing
+            <ns1:g example="test.eml" id="filename">%s</ns1:g></string>
+    <string name="error_loading_message_body">Couldn\'t load the message text. The message
+        may be too large to view.</string>
+    <string name="exchange_name">Corporate</string>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="failed_bad_response">Service error</string>
+    <string name="failed_network_error">Network error</string>
+    <string name="failed_server_auth">Authentication failed</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="favorite_action">Star</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="finished_empty">Finished items list is empty.</string>
+    <string name="format_date_uploaded">Uploaded %s</string>
+    <string name="format_progress_percent"><ns1:g example="50" id="number">%d</ns1:g><ns1:g example="%" id="percentsign">%%</ns1:g></string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="forward_action">Forward</string>
+    <string name="forward_download_failed_ticker">Couldn\'t forward one or more attachments.</string>
+    <string name="forward_download_failed_title">Attachment not forwarded</string>
+    <string name="gal_searching_fmt">Searching <ns1:g id="domain">%s</ns1:g>\u2026</string>
+    <string name="general_preference_auto_advance_dialog_title">Advance to</string>
+    <string name="general_preference_auto_advance_label">Auto-advance</string>
+    <string name="general_preference_auto_advance_message_list">Message list</string>
+    <string name="general_preference_auto_advance_newer">Newer message</string>
+    <string name="general_preference_auto_advance_older">Older message</string>
+    <string name="general_preference_auto_advance_summary">
+         Choose which screen to show after you delete a message</string>
+    <string msgid="6469564953937885304" name="general_preference_reply_all_label">Reply all</string>
+    <string msgid="3356918650886350497" name="general_preference_reply_all_summary">Make \"Reply all\" the default for message replies</string>
+    <string name="general_preference_text_zoom_dialog_title">Message text size</string>
+    <string name="general_preference_text_zoom_huge">Huge</string>
+    <string name="general_preference_text_zoom_label">Message text size</string>
+    <string name="general_preference_text_zoom_large">Large</string>
+    <string name="general_preference_text_zoom_normal">Normal</string>
+    <string name="general_preference_text_zoom_small">Small</string>
+    <string name="general_preference_text_zoom_tiny">Tiny</string>
+    <string name="general_preferences_clear_trusted_senders_summary">Pictures in messages won\'t be shown automatically</string>
+    <string name="general_preferences_clear_trusted_senders_title">Ask to show pictures</string>
+    <string name="header_label_general_preferences">General</string>
+    <string name="login_failed_ticker">
+        <ns1:g id="account_name">%s</ns1:g> signin failed.</string>
+    <string name="login_failed_title">Couldn\'t sign in</string>
+    <string name="long_string" translatable="false">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
+    <string name="mailbox_list_account_selector_account_header">Accounts</string>
+    <string name="mailbox_list_account_selector_combined_view">Combined view</string>
+    <string name="mailbox_list_account_selector_mailbox_header_fmt">
+        Recent folders (<ns1:g id="email_address">%s</ns1:g>)</string>
+    <string name="mailbox_list_account_selector_show_all_folders">Show all folders</string>
+    <string name="mailbox_list_recent_mailboxes">Recent folders</string>
+    <string name="mailbox_list_user_mailboxes">All folders</string>
+    <string name="mailbox_name_display_drafts">Drafts</string>
+    <string name="mailbox_name_display_inbox">Inbox</string>
+    <string name="mailbox_name_display_junk">Junk</string>
+    <string name="mailbox_name_display_outbox">Outbox</string>
+    <string name="mailbox_name_display_sent">Sent</string>
+    <string name="mailbox_name_display_trash">Trash</string>
+    <string name="mailbox_name_display_unread">Unread</string>
+    <string name="mailbox_name_server_drafts" translatable="false">Drafts</string>
+    <string name="mailbox_name_server_inbox" translatable="false">Inbox</string>
+    <string name="mailbox_name_server_junk" translatable="false">Junk</string>
+    <string name="mailbox_name_server_outbox" translatable="false">Outbox</string>
+    <string name="mailbox_name_server_sent" translatable="false">Sent</string>
+    <string name="mailbox_name_server_trash" translatable="false">Trash</string>
+    <string name="mailbox_preferences_header">Sync settings</string>
+    <string name="mailbox_settings_action">Sync options</string>
+    <string name="mailbox_settings_activity_title">Sync options</string>
+    <string name="mailbox_settings_activity_title_with_mailbox">Sync options (<ns1:g example="Family" id="mailboxx_name">%s</ns1:g>)</string>
+    <string name="mailbox_settings_mailbox_check_frequency_label">Check frequency</string>
+    <string name="mailbox_settings_mailbox_sync_window_label">Days to sync</string>
+    <string name="mailbox_shortcut_picker_title">Select a folder</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="manager_activity_last_sync_format">Last Sync:\n%1$s\n%2$s</string>
+    <string name="manager_do_not_upload">Do not upload</string>
+    <string name="manager_list_switcher_completed_format">Completed uploads [%d]</string>
+    <string name="manager_list_switcher_pending_format">Pending uploads [%d]</string>
+    <string name="manager_pause">Pause uploads</string>
+    <string name="manager_resume">Resume uploads</string>
+    <string name="manager_retry">Retry</string>
+    <string name="manager_sync_all">Sync all</string>
+    <string name="manager_toast_canceled">Upload canceled</string>
+    <string name="manager_toast_not_canceled">Upload already finished</string>
+    <string name="manager_upload_later">Upload later</string>
+    <string name="manager_upload_now">Upload now</string>
+    <string name="manager_view_completed">View Completed</string>
+    <string name="manager_view_media">View</string>
+    <string name="manager_view_pending">View Pending</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="mark_as_unread_action">Mark as unread</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="menu_hide_completed_items">Hide Details</string>
+    <string name="menu_hide_pending_items">Hide Pending Uploads</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_show_completed_items">Show Details</string>
+    <string name="menu_show_pending_items">Show Pending Uploads</string>
+    <string name="menu_view_online">View Online</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="message_compose_attachment_size">File too large to attach.</string>
+    <string name="message_compose_bcc_hint">Bcc</string>
+    <string name="message_compose_cc_hint">Cc</string>
+    <string name="message_compose_display_name"><ns1:g example="John" id="name">%1$s</ns1:g> and <ns1:g example="27" id="number">%2$d</ns1:g> others</string>
+    <string name="message_compose_error_invalid_email">Some email addresses are invalid.</string>
+    <string name="message_compose_error_no_recipients">You must add at least one recipient.</string>
+    <string name="message_compose_from_label">From:</string>
+    <string name="message_compose_fwd_header_fmt">\n\n-------- Original Message --------\nSubject: <ns1:g id="subject">%1$s</ns1:g>\nFrom: <ns1:g id="sender">%2$s</ns1:g>\nTo: <ns1:g id="to">%3$s</ns1:g>\nCC: <ns1:g id="cc">%4$s</ns1:g>\n\n</string>
+    <string name="message_compose_include_quoted_text_checkbox_label">Include text</string>
+    <string name="message_compose_insert_quick_response_list_title">Insert quick response</string>
+    <string name="message_compose_quoted_text_label">Include quoted text</string>
+    <string name="message_compose_reply_header_fmt">\n\n<ns1:g id="sender">%s</ns1:g> wrote:\n\n</string>
+    <string name="message_compose_subject_hint">Subject</string>
+    <string name="message_compose_to_hint">To</string>
+    <string name="message_decode_error">There was an error while decoding the message.</string>
+    <string name="message_delete_dialog_title"/>
+    <string name="message_discarded_toast">Message discarded.</string>
+    <string name="message_is_empty_description">No subject</string>
+    <string name="message_list_load_more_messages_action">Load more messages</string>
+    <string name="message_list_no_messages">No messages</string>
+    <string name="message_list_send_pending_messages_action">Send all messages</string>
+    <string name="message_list_subject_snippet_divider">\u0020\u2014\u0020</string>
+    <string name="message_saved_toast">Message saved as draft.</string>
+    <string name="message_subject_description">Subject</string>
+    <string name="message_view_always_show_pictures_button">Always show</string>
+    <string name="message_view_always_show_pictures_confirmation">Pictures from this sender will be shown automatically.</string>
+    <string name="message_view_always_show_pictures_prompt">Always show pictures from this sender</string>
+    <string name="message_view_attachment_background_load">Note: One or more attachments in your
+        forwarded message will be downloaded prior to sending.</string>
+    <string name="message_view_attachment_cancel_action">Stop</string>
+    <string name="message_view_attachment_info_action">Info</string>
+    <string name="message_view_attachment_install_action">Install</string>
+    <string name="message_view_attachment_load_action">Load</string>
+    <string name="message_view_attachment_play_action">Play</string>
+    <string name="message_view_attachment_save_action">Save</string>
+    <string name="message_view_attachment_saved">Saved</string>
+    <string name="message_view_attachment_view_action">View</string>
+    <string name="message_view_bcc_label">Bcc:</string>
+    <string name="message_view_cc_label">Cc:</string>
+    <string name="message_view_date_label">Date:</string>
+    <string name="message_view_display_attachment_toast">Can\'t display
+        attachment.</string>
+    <string name="message_view_from_label">From:</string>
+    <string name="message_view_invite_accept">" Yes"</string>
+    <string name="message_view_invite_decline">" No"</string>
+    <string name="message_view_invite_maybe">" Maybe"</string>
+    <string name="message_view_invite_text">Going?</string>
+    <string name="message_view_invite_title">Calendar invite</string>
+    <string name="message_view_invite_toast_maybe">
+        You\'ve replied \"maybe\" to this invitation.</string>
+    <string name="message_view_invite_toast_no">You\'ve declined this invitation.</string>
+    <string name="message_view_invite_toast_yes">You\'ve accepted this invitation.</string>
+    <string name="message_view_invite_view">View in Calendar</string>
+    <string name="message_view_load_attachment_failed_toast">Couldn\'t load attachment \"
+        <ns1:g id="filename">%s</ns1:g>\".</string>
+    <string name="message_view_message_details_dialog_title">Message details</string>
+    <string name="message_view_move_to_newer">Newer</string>
+    <string name="message_view_move_to_older">Older</string>
+    <string name="message_view_parse_message_toast">Opening message\u2026</string>
+    <string name="message_view_show_details">Show details</string>
+    <string name="message_view_show_invite_action">Invite</string>
+    <string name="message_view_show_message_action">Message</string>
+    <string name="message_view_show_pictures_action">Show pictures</string>
+    <string name="message_view_status_attachment_not_saved">Couldn\'t save the attachment.</string>
+    <string name="message_view_status_attachment_saved">Attachment saved
+as <ns1:g id="filename">%s</ns1:g>.</string>
+    <string name="message_view_subject_label">Subject:</string>
+    <string name="message_view_to_label">To:</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-chips/values/strings.xml -->
+    <eat-comment/>
+    <string name="more_string"><ns1:g id="count">%1$s</ns1:g> more...</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="more_than_999">999+</string>
+    <string name="move_action">Move</string>
+    <string name="move_to_folder_dialog_title">Move to</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/strings.xml -->
+    <eat-comment/>
+    <string name="multiple_new_message_notification_item"><b><ns1:g id="sender">%1$s</ns1:g></b>\u0020\u0020\u0020<ns1:g id="subject">%2$s</ns1:g></string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="next_action">Next</string>
+    <string name="notification_multiple_new_messages_fmt">
+        <ns1:g example="2">%1$d</ns1:g> new messages</string>
+    <string name="notification_to_account">to <ns1:g example="Main" id="receiver_name">%1$s</ns1:g></string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="notify_activation_reminder">Instant Upload hasn\'t been activated yet</string>
+    <string name="notify_paused">Uploads paused</string>
+    <string name="notify_resolved">Uploads finished</string>
+    <string name="notify_uploads">Instant Upload</string>
+    <string name="ok">OK</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="okay_action">OK</string>
+    <string name="password_expire_warning_content_title">Lock screen password expiring</string>
+    <string name="password_expire_warning_dialog_content_fmt">
+         You must change your lock screen PIN or password soon, or the data for
+         <ns1:g id="account">%s</ns1:g> will be erased. Change it now?</string>
+    <string name="password_expire_warning_dialog_title">Lock screen password expiring</string>
+    <string name="password_expire_warning_ticker_fmt">
+            \"<ns1:g id="account">%s</ns1:g>\" requires that you change your lock screen
+            PIN or password.</string>
+    <string name="password_expired_content_title">Lock screen password expired</string>
+    <string name="password_expired_dialog_content_fmt">
+         The data for <ns1:g id="account">%s</ns1:g> is being erased from your device.
+         You can restore it by changing your lock screen PIN or password. Change it now?</string>
+    <string name="password_expired_dialog_title">Lock screen password expired</string>
+    <string name="password_expired_ticker">Your lock screen PIN or password has expired.</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="pause_state_low_battery">paused - low battery</string>
+    <string name="pause_state_manually_paused">manually paused</string>
+    <string name="pause_state_need_charger">paused - delayed until charging</string>
+    <string name="pause_state_need_connectivity">paused - waiting for connection</string>
+    <string name="pause_state_need_media">paused - SD card unavailable</string>
+    <string name="pause_state_need_photos_quota">paused - out of PWA quota</string>
+    <string name="pause_state_need_wifi">paused - waiting for wifi</string>
+    <string name="pause_state_retrying">waiting to retry</string>
+    <string name="pause_state_roaming">paused - roaming</string>
+    <string name="pause_state_running">uploading</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="permission_access_provider_desc">Allows this application to access your email
+        database, including received messages, sent messages, usernames, and passwords.</string>
+    <string name="permission_access_provider_label">Access email provider data</string>
+    <string name="permission_read_attachment_desc">Allows this application to read your email
+        attachments.</string>
+    <string name="permission_read_attachment_label">Read email attachments</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="photos_upload_dimension_1600">Recommended: 1600 pixels (for sharing, prints and screensavers)</string>
+    <string name="photos_upload_dimension_original">Original size (slowest upload)</string>
+    <string name="picasa_default_destination">Instant Upload Album</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="picker_combined_view_fmt">Combined view (<ns1:g id="count">%s</ns1:g>)</string>
+    <string name="picker_mailbox_name_all_inbox">Inbox (all)</string>
+    <string name="picker_mailbox_name_all_unread">Inbox (unread)</string>
+    <string name="plus_cc_label">+ Cc/Bcc</string>
+    <string name="position_of_count"><ns1:g example="1">%1$d</ns1:g> of <ns1:g example="12">%2$s</ns1:g></string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="preference_category_title_about">About</string>
+    <string name="preference_category_title_general">General</string>
+    <string name="preference_category_title_photos">Photos</string>
+    <string name="preference_category_title_videos">Videos</string>
+    <string name="preference_mobile_data_usage_for_all_media">Photos &amp; videos via mobile networks</string>
+    <string name="preference_mobile_data_usage_for_photos_only">Only photos via mobile networks</string>
+    <string name="preference_mobile_data_usage_never">Photos &amp; videos via Wi-Fi only</string>
+    <string name="preference_plus_category_advanced">Advanced</string>
+    <string name="preference_plus_delay_sync_until_charging">Battery uploads</string>
+    <string name="preference_plus_delay_sync_until_charging_summary">Upload photos &amp; videos only when charging</string>
+    <string name="preference_plus_enable_cs">Instant Upload</string>
+    <string name="preference_plus_enable_cs_summary">Automatically upload new photos &amp; videos to a private web album</string>
+    <string name="preference_plus_mobile_data_connection">Mobile uploads</string>
+    <string name="preference_plus_sync_all">Upload existing photos</string>
+    <string name="preference_plus_sync_all_description">Upload any existing photos &amp; videos from your phone now</string>
+    <string name="preference_plus_sync_all_prompt_no">No</string>
+    <string name="preference_plus_sync_all_prompt_text">Uploading photos and videos that have not already been uploaded from your phone to a private album on the web can take a while, but will be done in the background. Are you sure you want to continue?</string>
+    <string name="preference_plus_sync_all_prompt_title">Upload existing photos</string>
+    <string name="preference_plus_sync_all_prompt_yes">Yes</string>
+    <string name="preference_plus_sync_while_roaming">Roaming uploads</string>
+    <string name="preference_plus_sync_while_roaming_summary">Upload photos &amp; videos when roaming on data network</string>
+    <string name="preference_plus_title">Instant Upload settings</string>
+    <string name="preference_plus_upload_status">Upload status</string>
+    <string name="preference_summary_header_format">%1$s: %2$s</string>
+    <string name="preference_summary_need_power">Upload only when the phone is being charged.</string>
+    <string name="preference_summary_need_wifi">Upload only when Wi-Fi is available.</string>
+    <string name="preference_summary_uploading_format">: %1$d of %2$d</string>
+    <string name="preference_summary_uploading_paused">Paused: touch to resume uploading</string>
+    <string name="preference_summary_uploading_percent">Uploading (%1$d%%)</string>
+    <string name="preference_title_camera_sync_version">Instant Upload Version</string>
+    <string name="preference_title_need_power">Power</string>
+    <string name="preference_title_need_wifi">Wi-Fi</string>
+    <string name="preference_title_pause_all_uploads">Pause all uploads</string>
+    <string name="preference_title_photo_size">Photo size</string>
+    <string name="preference_title_photos_account">Account</string>
+    <string name="preference_title_photos_upload_connectivity">Upload conditions</string>
+    <string name="preference_title_videos_account">Account</string>
+    <string name="preference_title_videos_account_summary">The photos account will be used video uploads.</string>
+    <string name="preference_title_videos_upload_connectivity">Upload conditions</string>
+    <string name="preference_title_videos_upload_connectivity_summary">Photos connectivity settings are used for now.</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="previous_action">Previous</string>
+    <string name="provider_note_live">Only some \"Plus\" accounts include POP access
+        allowing this program to connect. If you\'re not able to sign in with
+        your correct email address and password, you may not have a paid
+        \"Plus\" account. Launch the web browser to gain access to
+        these email accounts.</string>
+    <string name="provider_note_t_online">Before setting up this email account, visit the T-Online website and create a password for POP3 email access.</string>
+    <string name="quick_responses_empty_view">No quick responses</string>
+    <string name="read_action">Mark read</string>
+    <string name="refresh_action">Refresh</string>
+    <string name="remove_star_action">Remove star</string>
+    <string name="reply_action">Reply</string>
+    <string name="reply_all_action">Reply all</string>
+    <string name="require_manual_sync_message">Background sync for this account is disabled while\
+     roaming.</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="retry_in_1min">1 minute</string>
+    <string name="retry_in_2min">2 minutes</string>
+    <string name="retry_in_5min">5 minutes</string>
+    <string name="retry_no_data">No data connection</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="save_action">Save</string>
+    <string name="save_draft_action">Save draft</string>
+    <string name="search_action">Search</string>
+    <string name="search_header_text_fmt">Results</string>
+    <string name="search_hint">Search email</string>
+    <string name="search_mailbox_hint">Search <ns1:g example="Inbox">%1$s</ns1:g></string>
+    <string name="search_slow_warning_message">Some servers may take a long time.</string>
+    <string name="search_slow_warning_title">Waiting for results</string>
+    <string name="security_notification_content_title">Security update required</string>
+    <string name="security_notification_ticker_fmt">
+            Account \"<ns1:g id="account">%s</ns1:g>\" requires security settings update.
+    </string>
+    <string name="send_action">Send</string>
+    <string name="set_star_action">Add star</string>
+    <string name="settings_action">Settings</string>
+    <string name="settings_activity_title">Settings</string>
+    <string name="show_quick_text_list_dialog_action">Insert quick response</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/strings.xml -->
+    <eat-comment/>
+    <string name="single_new_message_notification_big_text"><ns1:g id="subject">%1$s</ns1:g>\n<ns1:g id="snippet">%2$s</ns1:g></string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="status_loading_messages">Loading messages\u2026</string>
+    <string name="status_network_error">Connection problem.</string>
+    <string name="subject_hint">Subject</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="summary_menu_show_finished">Show Finished Uploads</string>
+    <string name="summary_menu_show_pending">Show Pending Uploads</string>
+    <string name="summary_subtitle_counts_format">%1$d photos • %2$d videos</string>
+    <string name="summary_subtitle_disabled">Disabled</string>
+    <string name="summary_subtitle_paused_low_battery">low battery</string>
+    <string name="summary_subtitle_paused_need_charger">delayed until charging</string>
+    <string name="summary_subtitle_paused_need_media">SD card unavailable</string>
+    <string name="summary_subtitle_paused_need_network">waiting for connection</string>
+    <string name="summary_subtitle_paused_need_wifi">waiting for WiFi</string>
+    <string name="summary_subtitle_paused_photos_quota">exceeded photos quota</string>
+    <string name="summary_subtitle_paused_retry_format">retrying in %s</string>
+    <string name="summary_subtitle_paused_roaming">roaming</string>
+    <string name="summary_subtitle_uploading_format">%1$d%% • %2$d photos • %3$d videos</string>
+    <string name="summary_title_finished">Finished</string>
+    <string name="summary_title_paused">Paused</string>
+    <string name="summary_title_uploading">Uploading</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="system_account_create_failed">Couldn\'t create the account. Try again.</string>
+    <string name="to">To</string>
+    <string name="toast_account_not_found">Account wasn\'t found. It may have been removed.</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="toast_failed_auth">There was a problem signing into your account.</string>
+    <string name="toast_file_error">File not available.</string>
+    <string name="toast_intent_error">Upload initialization failed.</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="toast_mailbox_not_found">Folder wasn\'t found. It may have been removed.</string>
+    <string name="trusted_senders_cleared">\"Show pictures\" cleared.</string>
+    <string name="unread_action">Mark unread</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/uploader.xml -->
+    <eat-comment/>
+    <string name="upload">Upload</string>
+    <string name="upload_state_completed">Completed</string>
+    <string name="upload_state_failed">Failed</string>
+    <string name="upload_state_queued"/>
+    <string name="upload_state_uploading">Uploading</string>
+    <string name="upload_state_waiting_retry">Waiting to retry</string>
+    <string name="upload_state_waiting_wifi">Waiting for WiFi</string>
+    <string name="uploading_for"> for <b>%s</b></string>
+    <string name="uploading_to">Uploading to <b>%s</b></string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="waitinf_for_sync_message_1">Waiting for sync</string>
+    <string name="waitinf_for_sync_message_2">Your email will appear soon.</string>
+    <string name="widget_all_mail">Combined Inbox</string>
+    <string name="widget_loading">Loading\u2026</string>
+    <string name="widget_no_accounts">You haven\'t set up an email account yet.</string>
+    <string name="widget_no_mailboxes">This account isn\'t synced. Try again later.</string>
+    <string name="widget_other_views">Touch icon to change.</string>
+    <string name="widget_starred">Starred</string>
+    <string name="widget_touch_to_configure">Touch to set up.</string>
+    <string name="widget_unread">Unread</string>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/styles.xml -->
+    <eat-comment/>
+    <style name="AccountSpinnerAnchorTextPrimary" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    </style>
+    <style name="AccountSpinnerAnchorTextSecondary" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/actionbar_secondary</item>
+    </style>
+    <style name="AccountSpinnerDropdownTextPrimary">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="AccountSpinnerDropdownTextSecondary">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="AccountSwitchSpinnerItem">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Attachment"/>
+    <style name="Attachment.Button" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:minHeight">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingTop">8dip</item>
+        <item name="android:paddingBottom">8dip</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/buttontext</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/styles.xml -->
+    <eat-comment/>
+    <style name="ComposeBodyStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:inputType">textLongMessage|textMultiLine|textAutoCorrect|textCapSentences</item>
+        <item name="android:imeOptions">flagNoFullscreen|actionDone|flagNoEnterAction</item>
+        <item name="android:textColorHint">@color/compose_label_text</item>
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">42dip</item>
+    </style>
+    <style name="ComposeButton">
+        <item name="android:padding">0dip</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#777777</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="ComposeButtonColumn">
+        <item name="android:minWidth">100dip</item>
+    </style>
+    <style name="ComposeEditTextView">
+        <item name="android:minHeight">44dip</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="ComposeFieldLayout" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">0dip</item>
+    </style>
+    <style name="ComposeHeading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/compose_label_text</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:layout_gravity">center_vertical</item>
+     </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="EmailTheme" parent="@android:style/Theme.Holo.Light">
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/styles.xml -->
+    <eat-comment/>
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#cccccc</item>
+    </style>
+    <style name="NotificationSecondaryText">
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="PlainEditText" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="QuotedTextHeaderStyle">
+        <item name="android:textColor">#777777</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/styles.xml -->
+    <eat-comment/>
+    <style name="RecipientComposeFieldLayout" parent="@style/ComposeFieldLayout">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="RecipientComposeFieldSpacer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4dip</item>
+    </style>
+    <style name="RecipientComposeHeading" parent="@style/ComposeHeading">
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:paddingLeft">0dip</item>
+     </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-chips/values/styles.xml -->
+    <eat-comment/>
+    <style name="RecipientEditTextView" parent="@android:attr/autoCompleteTextViewStyle">
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+        <item name="android:imeOptions">actionNext|flagNoFullscreen</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:dropDownVerticalOffset">-6dip</item>
+        <item name="android:dropDownHorizontalOffset">-16dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/styles.xml -->
+    <eat-comment/>
+    <style name="RecipientEditTextViewStyle" parent="@style/RecipientEditTextView">
+        <item name="android:minHeight">42dip</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ThemeNoTitleBar" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="accountSettingsButton">
+        <item name="android:layout_width">160sp</item>
+        <item name="android:layout_height">40sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="accountSettingsHeadline">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="accountSetupButton">
+        <item name="android:layout_width">160sp</item>
+        <item name="android:layout_height">40sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="accountSetupHeadline">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/account_setup_headline_color</item>
+    </style>
+    <style name="action_bar_account_name">
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="action_bar_account_name_secondary">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/text_ternary_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="action_bar_custom_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="action_bar_spinner_primary_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="action_bar_spinner_secondary_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">-4dip</item>
+    </style>
+    <style name="attachment_container">
+        <item name="android:background">@drawable/attachment_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="attachment_name">
+        <item name="android:id">@id/attachment_name</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/styles.xml -->
+    <eat-comment/>
+    <style name="attachment_size" parent="@style/attachment_name">
+        <item name="android:textColor">#555555</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="attachment_thumbnail">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:layout_width">32dip</item>
+        <item name="android:layout_height">32dip</item>
+    </style>
+    <style name="message_details_label" parent="message_details_value">
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+    <style name="message_details_value">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/text_secondary_color</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+    <style name="message_details_value_selectable" parent="message_details_value">
+        <item name="android:textIsSelectable">true</item>
+    </style>
+    <style name="message_header_sender_address">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/text_secondary_color_inverse</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="message_header_sender_name">
+        <item name="android:textSize">16dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary_color_inverse</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="message_list_item_normal">
+        <!-- no styles on phones -->
+    </style>
+    <style name="message_list_item_wide">
+        <!-- no styles on phones -->
+    </style>
+    <style name="message_view_action_buttons" parent="android:Widget.Holo.Button.Borderless">
+        <item name="android:layout_width">48dip</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="message_view_horizontal_divider">
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">?android:attr/dividerHorizontal</item>
+    </style>
+    <style name="message_view_subject">
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:enabled">false</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="message_view_tab" parent="@android:style/Widget.Holo.Light.Tab">
+        <item name="android:layout_height">32dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/text_secondary_color</item>
+    </style>
+    <style name="message_view_text">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/text_secondary_color</item>
+    </style>
+    <style name="notification_secondary_text">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="search_header">
+        <item name="android:layout_height">36dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">6dip</item>
+        <item name="android:paddingRight">6dip</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values/styles.xml -->
+    <eat-comment/>
+    <style name="unreadCount">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">8dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#bcbcbc</item>
+    </style>
+    <style name="unreadCountActionBar" parent="unreadCount">
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textColor">#bbbbbb</item>
+        <!-- Use dp rather than sp for size since starts large and must not get too large -->
+        <item name="android:textSize">36dp</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="widget_list_item">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+</resources>

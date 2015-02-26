@@ -14,11 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.indeema.email;
 
 import android.os.Handler;
 import android.os.Message;
 import android.test.AndroidTestCase;
+
+import com.indeema.email.Clock;
+import com.indeema.email.Throttle;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -161,7 +164,7 @@ public class ThrottleTest extends AndroidTestCase {
     }
 
     /**
-     * Substitute for {@link Timer} that works based on the provided {@link Clock}.
+     * Substitute for {@link Timer} that works based on the provided {@link com.indeema.email.Clock}.
      */
     private static class MockTimer extends Timer {
         private final Clock mClock;

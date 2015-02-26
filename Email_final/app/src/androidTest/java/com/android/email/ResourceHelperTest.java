@@ -14,10 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.indeema.email;
 
 import android.graphics.Paint;
 import android.test.AndroidTestCase;
+
+import com.indeema.email.ResourceHelper;
 
 public class ResourceHelperTest extends AndroidTestCase {
     private ResourceHelper mResourceHelper;

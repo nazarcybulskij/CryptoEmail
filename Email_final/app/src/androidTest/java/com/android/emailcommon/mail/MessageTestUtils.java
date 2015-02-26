@@ -14,15 +14,20 @@
  * limitations under the License.
  */
 
-package com.android.emailcommon.mail;
+package com.indeema.emailcommon.mail;
 
-import com.android.emailcommon.internet.MimeBodyPart;
-import com.android.emailcommon.internet.MimeHeader;
-import com.android.emailcommon.internet.MimeMessage;
-import com.android.emailcommon.internet.MimeMultipart;
-import com.android.emailcommon.internet.TextBody;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.utility.AttachmentUtilities;
+import com.indeema.emailcommon.internet.MimeBodyPart;
+import com.indeema.emailcommon.internet.MimeHeader;
+import com.indeema.emailcommon.internet.MimeMessage;
+import com.indeema.emailcommon.internet.MimeMultipart;
+import com.indeema.emailcommon.internet.TextBody;
+import com.indeema.emailcommon.mail.Body;
+import com.indeema.emailcommon.mail.BodyPart;
+import com.indeema.emailcommon.mail.Message;
+import com.indeema.emailcommon.mail.MessagingException;
+import com.indeema.emailcommon.mail.Multipart;
+import com.indeema.emailcommon.provider.Account;
+import com.indeema.emailcommon.utility.AttachmentUtilities;
 
 import android.net.Uri;
 
@@ -72,7 +77,7 @@ public class MessageTestUtils {
      * @param mimeType MIME type of body part
      * @param contentId content-id header value (optional - null for no header)
      * @return MimeBodyPart object which body is null.
-     * @throws MessagingException
+     * @throws com.indeema.emailcommon.mail.MessagingException
      */
     public static BodyPart bodyPart(String mimeType, String contentId) throws MessagingException {
         final MimeBodyPart bp = new MimeBodyPart(null, mimeType);

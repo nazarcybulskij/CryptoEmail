@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email.activity.setup;
+package com.indeema.email.activity.setup;
 
 import android.content.Context;
 import android.content.Intent;
@@ -25,16 +25,19 @@ import android.widget.CheckBox;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 
-import com.android.email.R;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
+import com.indeema.email.R;
+import com.indeema.email.activity.setup.AccountSetupOptions;
+import com.indeema.email.activity.setup.SetupData;
+import com.indeema.email.activity.setup.SpinnerOption;
+import com.indeema.emailcommon.provider.Account;
+import com.indeema.emailcommon.provider.HostAuth;
 
 import java.net.URISyntaxException;
 
 /**
  * Tests of basic UI logic in the AccountSetupOptions screen.
  * You can run this entire test case with:
- *   runtest -c com.android.email.activity.setup.AccountSetupOptionsTests email
+ *   runtest -c com.indeema.email.activity.setup.AccountSetupOptionsTests email
  */
 @MediumTest
 public class AccountSetupOptionsTests

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-land/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="action_bar_account_name_max_width">100dip</dimen>
+    <dimen name="action_bar_mailbox_name_left_margin">8dip</dimen>
+    <dimen name="action_bar_mailbox_name_max_width">100dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values-land/dimen.xml -->
+    <eat-comment/>
+    <dimen name="actionbar_subject_padding_right">0dp</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-chips/values-land/dimen.xml -->
+    <eat-comment/>
+    <dimen name="chip_height">26dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-land/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="compose_scrollview_width">800dip</dimen>
+    <dimen name="mailbox_list_width">160dip</dimen>
+    <dimen name="message_list_width">160dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values-land/styles.xml -->
+    <eat-comment/>
+    <style name="AccountSpinnerAnchorTextPrimary" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="ComposeEditTextView">
+        <item name="android:minHeight">40dip</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="ComposeFieldLayout" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">38dip</item>
+        <item name="android:paddingTop">0dip</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-land/dimensions.xml -->
+    <eat-comment/>
+    <style name="SearchBar">
+        <item name="android:layout_width">360dip</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-land/styles.xml -->
+    <eat-comment/>
+    <style name="action_bar_spinner_primary_text">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="action_bar_spinner_secondary_text">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">-2dip</item>
+    </style>
+    <style name="action_bar_unread_count">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/text_ternary_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="message_view_action_buttons" parent="android:Widget.Holo.Button.Borderless">
+        <item name="android:layout_width">32dip</item>
+        <item name="android:layout_height">24dip</item>
+        <item name="android:layout_marginLeft">8dip</item>
+        <item name="android:layout_marginRight">8dip</item>
+        <item name="android:padding">2dip</item>
+    </style>
+</resources>

@@ -14,18 +14,19 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.indeema.email.activity;
 
-import com.android.email.DBTestHelper;
-import com.android.email.provider.ProviderTestUtils;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.Mailbox;
+import com.indeema.email.DBTestHelper;
+import com.indeema.email.provider.ProviderTestUtils;
+import com.indeema.email.activity.MailboxListFragment;
+import com.indeema.emailcommon.provider.Account;
+import com.indeema.emailcommon.provider.Mailbox;
 
 import android.content.Context;
 import android.test.AndroidTestCase;
 
 /**
- * Unit tests for {@link MailboxListFragment.FindParentMailboxTask}.
+ * Unit tests for {@link com.indeema.email.activity.MailboxListFragment.FindParentMailboxTask}.
  */
 public class FindParentMailboxTaskTest extends AndroidTestCase {
     private Context mProviderContext;

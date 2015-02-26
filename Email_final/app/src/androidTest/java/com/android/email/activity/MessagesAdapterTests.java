@@ -14,16 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.indeema.email.activity;
 
 import android.content.Context;
 import android.test.LoaderTestCase;
 
-import com.android.email.DBTestHelper;
-import com.android.email.MessageListContext;
-import com.android.email.provider.ProviderTestUtils;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.Mailbox;
+import com.indeema.email.DBTestHelper;
+import com.indeema.email.MessageListContext;
+import com.indeema.email.provider.ProviderTestUtils;
+import com.indeema.email.activity.MessagesAdapter;
+import com.indeema.emailcommon.provider.Account;
+import com.indeema.emailcommon.provider.Mailbox;
 
 public class MessagesAdapterTests extends LoaderTestCase {
     // Account ID that's probably not in the database.

@@ -14,9 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.transport;
+package com.indeema.email.mail.transport;
 
 import android.test.MoreAsserts;
+
+import com.indeema.email.mail.transport.DiscourseLogger;
 
 import junit.framework.TestCase;
 

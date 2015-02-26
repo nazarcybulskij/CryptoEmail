@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.indeema.email;
 
-import com.android.email.activity.setup.AccountSettingsUtils.Provider;
+import com.indeema.email.VendorPolicyLoader;
+import com.indeema.email.activity.setup.AccountSettingsUtils.Provider;
 
 import android.content.Context;
 import android.os.Bundle;

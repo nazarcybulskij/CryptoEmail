@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-sw720dp/dimen.xml -->
+    <eat-comment/>
+    <dimen name="compose_scrollview_width">700dip</dimen>
+    <dimen name="mailbox_list_width">320dip</dimen>
+    <dimen name="message_list_width">426dip</dimen>
+    <dimen name="setup_padding_left">128dip</dimen>
+    <dimen name="setup_padding_right">128dip</dimen>
+    <dimen name="setup_padding_top">16dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values-sw720dp/dimen.xml -->
+    <eat-comment/>
+    <dimen name="spinner_frame_width">232dip</dimen>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res/values-sw720dp/dimen.xml -->
+    <eat-comment/>
+    <integer name="message_use_wide_header_mode">1</integer>
+    <!-- From: file:/home/nazar/CryptoEmail/Email_final/app/src/main/res-mailcommon/values-sw720dp/styles.xml -->
+    <eat-comment/>
+    <style name="ComposeButtonColumn">
+        <item name="android:minWidth">100dip</item>
+    </style>
+    <style name="unreadCountActionBarTablet" parent="@style/unreadCountActionBar">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+</resources>

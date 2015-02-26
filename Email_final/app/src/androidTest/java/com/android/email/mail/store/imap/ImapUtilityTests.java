@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store.imap;
-
-import com.android.email.mail.store.imap.ImapUtility;
+package com.indeema.email.mail.store.imap;
 
 import android.test.AndroidTestCase;
 import android.test.MoreAsserts;
+
+import com.indeema.email.mail.store.imap.ImapUtility;
 
 import libcore.util.EmptyArray;
 

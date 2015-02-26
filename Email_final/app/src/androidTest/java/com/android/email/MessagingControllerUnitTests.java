@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.indeema.email;
 
-import com.android.emailcommon.mail.MockFolder;
-import com.android.emailcommon.provider.Account;
+import com.indeema.emailcommon.mail.MockFolder;
+import com.indeema.emailcommon.provider.Account;
 
 import android.content.ContentUris;
 import android.net.Uri;

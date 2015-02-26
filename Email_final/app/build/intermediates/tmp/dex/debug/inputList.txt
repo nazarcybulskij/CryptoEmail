@@ -1,0 +1,4 @@
+/home/nazar/CryptoEmail/Email_final/app/build/intermediates/classes/debug
+/home/nazar/CryptoEmail/Email_final/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-499c801802c45fb1d5d82b22b21c881256bf919c.jar
+/home/nazar/CryptoEmail/Email_final/app/build/intermediates/pre-dexed/debug/classes-e157b715b595b4624d67dc6ce5547c8387057e14.jar
+/home/nazar/CryptoEmail/Email_final/app/build/intermediates/pre-dexed/debug/guava-12.0-be814ce9cd68f19f20c226ea3ea9b7b106cbb481.jar

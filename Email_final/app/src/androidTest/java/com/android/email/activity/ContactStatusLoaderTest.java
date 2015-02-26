@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.indeema.email.activity;
 
-import com.android.email.activity.ContactStatusLoader.Result;
+import com.indeema.email.activity.ContactStatusLoader;
+import com.indeema.email.activity.ContactStatusLoader.Result;
 
 import android.content.Context;
 import android.content.pm.ProviderInfo;
@@ -37,9 +38,9 @@ import java.util.concurrent.LinkedBlockingQueue;
 import junit.framework.Assert;
 
 /**
- * Test for {@link ContactStatusLoader}
+ * Test for {@link com.indeema.email.activity.ContactStatusLoader}
  *
- * Unfortunately this doesn't check {@link ContactStatusLoader.Result#mLookupUri}, because we don't
+ * Unfortunately this doesn't check {@link com.indeema.email.activity.ContactStatusLoader.Result#mLookupUri}, because we don't
  * (shouldn't) know how {@link android.provider.ContactsContract.Data#getContactLookupUri} is
  * implemented.
  */

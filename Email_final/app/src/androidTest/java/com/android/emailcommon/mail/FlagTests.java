@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.emailcommon.mail;
+package com.indeema.emailcommon.mail;
 
-import com.android.emailcommon.mail.Flag;
+import com.indeema.emailcommon.mail.Flag;
 
 import android.test.suitebuilder.annotation.SmallTest;
 

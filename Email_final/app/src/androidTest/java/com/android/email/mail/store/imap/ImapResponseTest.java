@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store.imap;
+package com.indeema.email.mail.store.imap;
 
-import static com.android.email.mail.store.imap.ImapTestUtils.*;
-
-import com.android.email.mail.store.imap.ImapConstants;
-import com.android.email.mail.store.imap.ImapResponse;
-import com.android.email.mail.store.imap.ImapSimpleString;
+import static com.indeema.email.mail.store.imap.ImapTestUtils.*;
 
 import android.test.suitebuilder.annotation.SmallTest;
+
+import com.indeema.email.mail.store.imap.ImapConstants;
+import com.indeema.email.mail.store.imap.ImapResponse;
+import com.indeema.email.mail.store.imap.ImapSimpleString;
 
 import junit.framework.TestCase;
 

@@ -14,20 +14,21 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.indeema.email.activity;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.test.AndroidTestCase;
 import android.test.suitebuilder.annotation.MediumTest;
 
-import com.android.email.Controller;
-import com.android.email.DBTestHelper;
-import com.android.email.MockClock;
-import com.android.email.provider.ContentCache;
-import com.android.email.provider.ProviderTestUtils;
-import com.android.emailcommon.provider.EmailContent.MailboxColumns;
-import com.android.emailcommon.provider.Mailbox;
+import com.indeema.email.Controller;
+import com.indeema.email.DBTestHelper;
+import com.indeema.email.MockClock;
+import com.indeema.email.activity.RecentMailboxManager;
+import com.indeema.email.provider.ContentCache;
+import com.indeema.email.provider.ProviderTestUtils;
+import com.indeema.emailcommon.provider.EmailContent.MailboxColumns;
+import com.indeema.emailcommon.provider.Mailbox;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -37,7 +38,7 @@ import java.util.Set;
  * Tests for the recent mailbox manager.
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.activity.RecentMailboxManagerTest email
+ *   runtest -c com.indeema.email.activity.RecentMailboxManagerTest email
  */
 @MediumTest
 public class RecentMailboxManagerTest extends AndroidTestCase {

@@ -6,6 +6,8 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:1.0.1'
     }
+
+
 }
 
 allprojects {
@@ -13,3 +15,4 @@ allprojects {
         jcenter()
     }
 }
+

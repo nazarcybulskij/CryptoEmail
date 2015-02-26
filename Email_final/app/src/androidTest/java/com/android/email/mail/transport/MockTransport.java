@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.transport;
+package com.indeema.email.mail.transport;
 
-import com.android.email.mail.Transport;
+import com.indeema.email.mail.Transport;
 
 import android.util.Log;
 

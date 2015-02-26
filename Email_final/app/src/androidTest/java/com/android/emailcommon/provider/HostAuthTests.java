@@ -14,10 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.emailcommon.provider;
+package com.indeema.emailcommon.provider;
 
 import android.test.AndroidTestCase;
 import android.test.suitebuilder.annotation.SmallTest;
+
+import com.indeema.emailcommon.provider.HostAuth;
 
 /**
  * Unit tests for the HostAuth inner class.

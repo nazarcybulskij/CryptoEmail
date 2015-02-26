@@ -14,13 +14,16 @@
  * limitations under the License.
  */
 
-package com.android.emailcommon.internet;
+package com.indeema.emailcommon.internet;
 
-import com.android.emailcommon.TempDirectory;
-import com.android.emailcommon.mail.Address;
-import com.android.emailcommon.mail.Flag;
-import com.android.emailcommon.mail.Message.RecipientType;
-import com.android.emailcommon.mail.MessagingException;
+import com.indeema.emailcommon.TempDirectory;
+import com.indeema.emailcommon.internet.MimeHeader;
+import com.indeema.emailcommon.internet.MimeMessage;
+import com.indeema.emailcommon.internet.MimeUtility;
+import com.indeema.emailcommon.mail.Address;
+import com.indeema.emailcommon.mail.Flag;
+import com.indeema.emailcommon.mail.Message.RecipientType;
+import com.indeema.emailcommon.mail.MessagingException;
 
 import android.test.AndroidTestCase;
 import android.test.suitebuilder.annotation.MediumTest;
@@ -458,7 +461,7 @@ public class MimeMessageTest extends AndroidTestCase {
         MimeMessage mm = null;
         mm = new MimeMessage(new ByteArrayInputStream(
             entireMessage.getBytes("us-ascii")));
-        assertTrue(mm.getMimeType(), MimeUtility.mimeTypeMatches("text/html",mm.getMimeType()));
+        assertTrue(mm.getMimeType(), MimeUtility.mimeTypeMatches("text/html", mm.getMimeType()));
         assertEquals(new Date(-27723480000L),mm.getSentDate());
         assertEquals("<testabcd.1234@silly.test>",mm.getMessageId());
         Address[] toAddresses = mm.getRecipients(MimeMessage.RecipientType.TO);
@@ -530,7 +533,7 @@ public class MimeMessageTest extends AndroidTestCase {
      * Make sure the parser accepts the "eBay style" date format.
      *
      * Messages from ebay have been seen that they use the wrong date format.
-     * @see com.android.emailcommon.utility.Utility#cleanUpMimeDate
+     * @see com.indeema.emailcommon.utility.Utility#cleanUpMimeDate
      */
     public void testEbayDate() throws MessagingException, IOException {
         String entireMessage =

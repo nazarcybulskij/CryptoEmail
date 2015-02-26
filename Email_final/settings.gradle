@@ -1,4 +1,4 @@
-include ':app', ':copychips'
+include ':app'
 include ':chips'
 
 project(':chips').projectDir = new File('chips')

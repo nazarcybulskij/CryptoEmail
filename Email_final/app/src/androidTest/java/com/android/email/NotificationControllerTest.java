@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.indeema.email;
 
 import android.app.Notification;
 import android.content.Context;
@@ -22,13 +22,14 @@ import android.media.AudioManager;
 import android.net.Uri;
 import android.test.AndroidTestCase;
 
-import com.android.email.provider.ProviderTestUtils;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.Mailbox;
+import com.indeema.email.provider.ProviderTestUtils;
+import com.indeema.email.NotificationController;
+import com.indeema.emailcommon.provider.Account;
+import com.indeema.emailcommon.provider.EmailContent.Message;
+import com.indeema.emailcommon.provider.Mailbox;
 
 /**
- * Test for {@link NotificationController}.
+ * Test for {@link com.indeema.email.NotificationController}.
  *
  * TODO Add tests for all methods.
  */
