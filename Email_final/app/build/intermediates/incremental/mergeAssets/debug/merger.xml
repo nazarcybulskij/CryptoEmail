@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/nazar/calc/Email_final/app/src/main/assets"><file name="test.html" path="/home/nazar/calc/Email_final/app/src/main/assets/test.html"/><file name="loading.gif" path="/home/nazar/calc/Email_final/app/src/main/assets/loading.gif"/><file name="loading.html" path="/home/nazar/calc/Email_final/app/src/main/assets/loading.html"/></source></dataSet><dataSet config="debug"><source path="/home/nazar/calc/Email_final/app/src/debug/assets"/></dataSet></merger>
