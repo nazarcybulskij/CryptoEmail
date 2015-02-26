@@ -14,11 +14,16 @@ android {
                 res.srcDirs = ['src/main/res', 'src/main/res-chips','src/main/res-mailcommon']
             }
         }
+        dependencies{
+            project(":chips")
+        }
 
 
         testApplicationId "com.android.email.tests"
         testInstrumentationRunner "android.test.InstrumentationTestRunner"
     }
+
+
 
     buildTypes {
         release {
@@ -27,3 +32,5 @@ android {
         }
     }
 }
+
+
