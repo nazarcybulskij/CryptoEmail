@@ -3,13 +3,36 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="disableWrapperSourceDistributionNotification" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/OpenKeychain" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/chips" />
+            <option value="$PROJECT_DIR$/extern" />
+            <option value="$PROJECT_DIR$/extern/KeybaseLib" />
+            <option value="$PROJECT_DIR$/extern/KeybaseLib/Lib" />
+            <option value="$PROJECT_DIR$/extern/StickyListHeaders" />
+            <option value="$PROJECT_DIR$/extern/StickyListHeaders/library" />
+            <option value="$PROJECT_DIR$/extern/SuperToasts" />
+            <option value="$PROJECT_DIR$/extern/SuperToasts/supertoasts" />
+            <option value="$PROJECT_DIR$/extern/TokenAutoComplete" />
+            <option value="$PROJECT_DIR$/extern/TokenAutoComplete/library" />
+            <option value="$PROJECT_DIR$/extern/android-lockpattern" />
+            <option value="$PROJECT_DIR$/extern/android-lockpattern/code" />
+            <option value="$PROJECT_DIR$/extern/html-textview" />
+            <option value="$PROJECT_DIR$/extern/minidns" />
+            <option value="$PROJECT_DIR$/extern/openkeychain-api-lib" />
+            <option value="$PROJECT_DIR$/extern/openpgp-api-lib" />
+            <option value="$PROJECT_DIR$/extern/safeslinger-exchange" />
+            <option value="$PROJECT_DIR$/extern/spongycastle" />
+            <option value="$PROJECT_DIR$/extern/spongycastle/core" />
+            <option value="$PROJECT_DIR$/extern/spongycastle/pg" />
+            <option value="$PROJECT_DIR$/extern/spongycastle/pkix" />
+            <option value="$PROJECT_DIR$/extern/spongycastle/prov" />
           </set>
         </option>
       </GradleProjectSettings>

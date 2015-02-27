@@ -15,9 +15,9 @@ android {
                 aidl.srcDirs = ['src/main/java']
             }
         }
-
         dependencies{
             compile project(":chips")
+            //compile poject(":open-keychain")
             compile group: 'com.google.guava', name: 'guava', version: '12.0'
         }
 
